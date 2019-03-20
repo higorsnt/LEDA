@@ -42,8 +42,15 @@ public class RepositorioProdutoPerecivelArray {
 	 * @return
 	 */
 	private int procurarIndice(int codigo) {
-		// TODO Implement your code here
-		throw new UnsupportedOperationException("Not implemented yet!");
+		int ind = -1;
+
+		for (int i = 0; i < this.index; i++){
+			if (this.produtos[i].getCodigo() == codigo){
+				ind = i;
+			}
+		}
+
+		return ind;
 	}
 
 	/**
@@ -53,16 +60,14 @@ public class RepositorioProdutoPerecivelArray {
 	 * @return
 	 */
 	public boolean existe(int codigo) {
-		// TODO Implement your code here
-		throw new UnsupportedOperationException("Not implemented yet!");
+		return (this.procurarIndice(codigo) >= 0);
 	}
 
 	/**
 	 * Insere um novo produto (sem se preocupar com duplicatas)
 	 */
 	public void inserir(ProdutoPerecivel produto) {
-		// TODO Implement your code here
-		throw new UnsupportedOperationException("Not implemented yet!");
+		this.produtos[++this.index] = produto;
 	}
 
 	/**
@@ -71,8 +76,11 @@ public class RepositorioProdutoPerecivelArray {
 	 * utilizado.
 	 */
 	public void atualizar(ProdutoPerecivel produto) {
-		// TODO Implement your code here
-		throw new UnsupportedOperationException("Not implemented yet!");
+		for (int i = 0; i < this.index; i++){
+			if (this.produtos[i].getCodigo() == produto.getCodigo()){
+				this.produtos[i] = produto;
+			}
+		}
 	}
 
 	/**
@@ -83,8 +91,15 @@ public class RepositorioProdutoPerecivelArray {
 	 * @param codigo
 	 */
 	public void remover(int codigo) {
-		// TODO Implement your code here
-		throw new UnsupportedOperationException("Not implemented yet!");
+		int ind = this.procurarIndice(codigo);
+
+		if (ind != -1) {
+			produtos[ind] = produtos[index];
+			produtos[index] = null;
+			index--;
+		} else {
+			throw new IllegalArgumentException("Produto nao encontrado");
+		}
 	}
 
 	/**
@@ -95,7 +110,12 @@ public class RepositorioProdutoPerecivelArray {
 	 * @return
 	 */
 	public ProdutoPerecivel procurar(int codigo) {
-		// TODO Implement your code here
-		throw new UnsupportedOperationException("Not implemented yet!");
+		int i = this.procurarIndice(codigo);
+
+		if (i >= 0){
+			return this.produtos[i];
+		} else {
+			throw new IllegalArgumentException("Produto nao encontrado");
+		}
 	}
 }

@@ -94,11 +94,12 @@ public class RepositorioProdutoArrayList {
 	 */
 	public Produto procurar(int codigo) {
 		int index = procurarIndice(codigo);
+		Produto prod = null;
 
 		if (index >= 0){
-			return (Produto) this.produtos.get(index);
-		} else {
-			throw new IllegalArgumentException("Produto Nao Encontrado!");
+			prod = (Produto) this.produtos.get(index);
 		}
+
+		return prod;
 	}
 }
