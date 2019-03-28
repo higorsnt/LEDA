@@ -3,6 +3,7 @@ package sorting.test;
 import java.util.Arrays;
 
 import org.junit.Assert;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -41,7 +42,7 @@ public class StudentSortingTest {
 	private void getImplementation() {
 		// TODO O aluno deve instanciar sua implementação abaixo ao invés de
 		// null
-		this.implementation = new SelectionSort<>();
+		this.implementation = new InsertionSort<>();
 		//Assert.fail("Implementation not provided");
 	}
 

@@ -9,5 +9,8 @@
         <module name="submission" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="submission" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
