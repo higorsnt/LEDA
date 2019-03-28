@@ -15,12 +15,12 @@ public class SelectionSort<T extends Comparable<T>> extends AbstractSorting<T> {
 		for (int i = leftIndex; i <= rightIndex; i++) {
             int index = i;
 
-			for (int j = i + 1; j <= rightIndex ; j++) {
-				if (array[index].compareTo(array[j]) < 0){
+			for (int j = i + 1; j <= rightIndex; j++) {
+				if (array[index].compareTo(array[j]) > 0){
 					index = j;
 				}
 			}
-			swap(array, index, i);
+			swap(array, i, index);
 		}
 	}
 }
