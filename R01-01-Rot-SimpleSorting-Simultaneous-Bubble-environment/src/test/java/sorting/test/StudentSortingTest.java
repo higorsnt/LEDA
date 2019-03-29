@@ -11,6 +11,7 @@ import sorting.AbstractSorting;
 import sorting.simpleSorting.BubbleSort;
 import sorting.simpleSorting.InsertionSort;
 import sorting.simpleSorting.SelectionSort;
+import sorting.variationsOfBubblesort.SimultaneousBubblesort;
 
 public class StudentSortingTest {
 
@@ -42,8 +43,7 @@ public class StudentSortingTest {
 	private void getImplementation() {
 		// TODO O aluno deve instanciar sua implementação abaixo ao invés de
 		// null
-		this.implementation = new InsertionSort<>();
-		//Assert.fail("Implementation not provided");
+		this.implementation = new SimultaneousBubblesort<>();
 	}
 
 	public void populaVetorTamanhoPar(Integer[] arrayPadrao) {
@@ -110,4 +110,57 @@ public class StudentSortingTest {
 	 * SEGUIR A ESTRUTURA DOS MÉTODOS DE TESTE ACIMA DESCRITOS, ORDENANDO APENAS
 	 * UMA PARTE DO ARRAY.
 	 */
+
+	public AbstractSorting<String> algorithm;
+
+	private void getAlgorithm() {
+		this.algorithm = new SimultaneousBubblesort<>();
+	}
+
+	private Integer[] vetorDecrescente;
+	private String[] vetorString;
+
+	@Before
+	public void otherSetUp(){
+		popularVetorDescrescente(new Integer[] {25, 24, 23, 22, 21, 20, 19, 18,
+				17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0});
+		popularVetorString(new String[] {"Zelia", "Yuri", "Pedro", "Paulo", "Maria",
+				"Ana", "Beatriz", "Tiago", "Gabi", "Leticia", "Pablo", "Ana", "Higor"});
+
+		this.getAlgorithm();
+	}
+
+	// Métodos para popular os novos arrays criados
+	public void popularVetorDescrescente(Integer[] arrayPadrao){
+		this.vetorDecrescente = Arrays.copyOf(arrayPadrao,
+				arrayPadrao.length);
+	}
+
+	public void popularVetorString(String[] arrayPadrao){
+		this.vetorString = Arrays.copyOf(arrayPadrao,
+				arrayPadrao.length);
+	}
+
+	// Métodos que realizarão os testes
+	public void genericTest(String[] array) {
+		String[] copy1 = {};
+		if(array.length > 0){
+			copy1 = Arrays.copyOf(array, array.length);
+		}
+
+		algorithm.sort(array);
+		Arrays.sort(copy1);
+		Assert.assertArrayEquals(copy1, array);
+	}
+
+	@Test
+	public void testSort06() {
+		genericTest(vetorDecrescente);
+	}
+
+	@Test
+	public void testSort07() {
+		genericTest(vetorString);
+	}
+
 }

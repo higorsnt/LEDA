@@ -16,14 +16,14 @@ public class InsertionSort<T extends Comparable<T>> extends AbstractSorting<T> {
 		for (int i = leftIndex + 1; i <= rightIndex; i++) {
 			T element = array[i];
 
-			int  isOrdered = i - 1;
+			int  j = i - 1;
 
-			while (isOrdered > 0 && element.compareTo(array[isOrdered]) > 0){
-				array[isOrdered + 1] = array[i];
-				isOrdered--;
+			while (j >= 0 && element.compareTo(array[j]) < 0){
+				array[j + 1] = array[j];
+				j--;
 			}
 
-			array[i] = element;
+			array[j + 1] = element;
 		}
 	}
 }

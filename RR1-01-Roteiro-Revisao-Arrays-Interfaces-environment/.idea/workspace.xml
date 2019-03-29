@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6eea01d0-032f-4d40-80a7-3102fe15c077" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/produto/RepositorioProdutoArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/produto/RepositorioProdutoArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/produto/RepositorioProdutoNaoPerecivelArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/produto/RepositorioProdutoNaoPerecivelArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/produto/RepositorioProdutoPerecivelArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/produto/RepositorioProdutoPerecivelArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/produto/RepositorioProdutoArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/produto/RepositorioProdutoArrayList.class" afterDir="false" />
-    </list>
+    <list default="true" id="6eea01d0-032f-4d40-80a7-3102fe15c077" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,13 +14,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/produto/RepositorioProdutoPerecivelArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="119" column="5" lean-forward="true" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+            <state relative-caret-position="519">
+              <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
               <folding>
-                <element signature="e#1703#1704#0" expanded="true" />
-                <element signature="e#1718#1719#0" expanded="true" />
                 <element signature="e#1868#1869#0" expanded="true" />
-                <element signature="e#1894#1895#0" expanded="true" />
+                <element signature="e#1912#1913#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/solucao/produto/RepositorioProdutosArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="111" column="5" lean-forward="true" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+            <state relative-caret-position="1962">
+              <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
               <folding>
                 <element signature="e#1026#1027#0" expanded="true" />
                 <element signature="e#1060#1061#0" expanded="true" />
@@ -49,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/solucao/produto/RepositorioProdutosSolucao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -105,69 +97,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="produto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="solucao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RR1-01-Roteiro-Revisao-Arrays-Interfaces-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="solucao" type="462c0819:PsiDirectoryNode" />
-              <item name="produto" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553082549617" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -266,6 +205,7 @@
       <workItem from="1552959984840" duration="1119000" />
       <workItem from="1553047098430" duration="3901000" />
       <workItem from="1553079899128" duration="2656000" />
+      <workItem from="1553370303799" duration="57000" />
     </task>
     <servers />
   </component>
@@ -302,12 +242,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7676000" />
+    <option name="totallyTimeSpent" value="7733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25778133" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26177174" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -333,7 +273,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.32960895" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32960895" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -457,13 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/solucao/produto/RepositorioProdutosSolucao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/solucao/produto/RepositorioProdutoPerecivelArraySolucao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -485,10 +418,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/produto/RepositorioProdutoPerecivelArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+          <folding>
+            <element signature="e#1868#1869#0" expanded="true" />
+            <element signature="e#1912#1913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/solucao/produto/RepositorioProdutosArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="111" column="5" lean-forward="true" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+        <state relative-caret-position="1962">
+          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
           <folding>
             <element signature="e#1026#1027#0" expanded="true" />
             <element signature="e#1060#1061#0" expanded="true" />
@@ -496,16 +440,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/produto/RepositorioProdutoPerecivelArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/solucao/produto/RepositorioProdutosSolucao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="119" column="5" lean-forward="true" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
-          <folding>
-            <element signature="e#1703#1704#0" expanded="true" />
-            <element signature="e#1718#1719#0" expanded="true" />
-            <element signature="e#1868#1869#0" expanded="true" />
-            <element signature="e#1894#1895#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
         </state>
       </provider>
     </entry>

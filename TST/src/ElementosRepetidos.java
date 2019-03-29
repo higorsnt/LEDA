@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class ElementosRepetidos {
+public class ElementosRepetidos {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -12,6 +12,7 @@ class ElementosRepetidos {
             for (int j = 0; j < i; j++) {
                 if (!exists && elements[i].equals(elements[j])){
                     exists = true;
+                    break;
                 }
             }
         }
