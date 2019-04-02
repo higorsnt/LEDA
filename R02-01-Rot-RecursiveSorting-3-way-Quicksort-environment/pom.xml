@@ -86,9 +86,9 @@
 						</goals>
 						<configuration>
 							<!-- insira sua matricula -->
-							<matricula>INSIRA SEU NUMERO DE MATRICULA</matricula>
+							<matricula>118110808</matricula>
 							<!-- insira o ID correto da atividade e a turma -->
-							<roteiro>R0X-0X</roteiro>
+							<roteiro>R02-01</roteiro>
 							<!-- NÃO MODIFIQUE AS TAGS ABAIXO -->
 							<semestre>2019.1</semestre>
 							<url>http://150.165.85.29:81/submitAtividade</url>
@@ -115,9 +115,9 @@
 							<!-- INSIRA OS NOMES COMPLETOS DAS CLASSES A SEREM TESTADAS AQUI (Full 
 								qualified name = nome com o pacote) -->
 							<qualifiedNames>
-								<!-- name>sorting.simpleSorting.BubbleSort</name -->
-								<!-- name>sorting.simpleSorting.SelectionSort</name -->
-								<!-- name>sorting.simpleSorting.InsertionSort</name -->
+								<name>sorting.divideAndConquer.MergeSort</name>
+								<name>sorting.divideAndConquer.QuickSort</name>
+								<name>sorting.divideAndConquer.threeWayQuicksort.ThreeWayQuickSort</name>
 							</qualifiedNames>
 						</configuration>
 					</execution>

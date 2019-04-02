@@ -1,12 +1,14 @@
 package sorting.test;
 
 import java.util.Arrays;
+import java.util.Random;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
 import sorting.AbstractSorting;
+import sorting.divideAndConquer.threeWayQuicksort.ThreeWayQuickSort;
 
 public class StudentSortingTest {
 
@@ -38,8 +40,7 @@ public class StudentSortingTest {
 	private void getImplementation() {
 		// TODO O aluno deve instanciar sua implementação abaixo ao invés de
 		// null
-		this.implementation = null;
-		Assert.fail("Implementation not provided");
+		this.implementation = new ThreeWayQuickSort<>();
 	}
 
 	public void populaVetorTamanhoPar(Integer[] arrayPadrao) {
@@ -106,4 +107,45 @@ public class StudentSortingTest {
 	 * SEGUIR A ESTRUTURA DOS MÉTODOS DE TESTE ACIMA DESCRITOS, ORDENANDO APENAS
 	 * UMA PARTE DO ARRAY.
 	 */
+
+	private Integer[] vetorDecrescente;
+	private Integer[] vetorGiganteDecrescente;
+
+	@Before
+	public void otherSetUp(){
+		popularVetorDescrescente(new Integer[] {25, 24, 23, 22, 21, 20, 19, 18,
+				17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0});
+		popularVetorGiganteDescrescente();
+	}
+
+	// Métodos para popular os novos arrays criados
+	public void popularVetorDescrescente(Integer[] arrayPadrao){
+		this.vetorDecrescente = Arrays.copyOf(arrayPadrao,
+				arrayPadrao.length);
+	}
+
+	public void popularVetorGiganteDescrescente(){
+		int size = getRandom(0, 70000);
+		vetorGiganteDecrescente = new Integer[size];
+
+		for(int index = 0; index < size; index++){
+			vetorGiganteDecrescente[index] = getRandom(-10000, 90000);
+		}
+	}
+
+	public int getRandom (int min, int max) {
+		Random r = new Random();
+		return r.nextInt((max - min) + 1) + min;
+	}
+
+	// Métodos que realizarão os testes
+	@Test
+	public void testSort06() {
+		genericTest(vetorDecrescente);
+	}
+
+	@Test
+	public void testSort07() {
+		genericTest(vetorGiganteDecrescente);
+	}
 }
