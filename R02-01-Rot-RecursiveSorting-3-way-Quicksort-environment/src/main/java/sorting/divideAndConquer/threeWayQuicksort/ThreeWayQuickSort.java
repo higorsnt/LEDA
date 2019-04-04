@@ -31,6 +31,20 @@ public class ThreeWayQuickSort<T extends Comparable<T>> extends
 		}
 	}
 
+	private boolean validation(T[] array, int leftIndex, int rightIndex) {
+		boolean isValid = true;
+
+		if (array == null || array.length <= 0) {
+			isValid = false;
+		} else if ((leftIndex >= rightIndex) || (leftIndex < 0) || (rightIndex <= 0)) {
+			isValid = false;
+		} else if ((rightIndex > array.length - 1) || leftIndex >= array.length) {
+			isValid = false;
+		}
+
+		return isValid;
+	}
+
 	public void partition(T[]array, int leftIndex, int rightIndex) {
 		if(leftIndex < rightIndex) {
 			int start = leftIndex;

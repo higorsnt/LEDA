@@ -16,12 +16,26 @@ public class MergeSort<T extends Comparable<T>> extends AbstractSorting<T> {
 	public void sort(T[] array, int leftIndex, int rightIndex) {
 		int middleIndex;
 
-		if (leftIndex < rightIndex && (leftIndex >= 0 && rightIndex >= 0)){
+		if (validation(array, leftIndex, rightIndex)){
 			middleIndex = (leftIndex + rightIndex) / 2;
 			this.sort(array, leftIndex, middleIndex);
 			this.sort(array, middleIndex + 1, rightIndex);
 			this.merge(array, leftIndex, middleIndex, rightIndex);
 		}
+	}
+
+	private boolean validation(T[] array, int leftIndex, int rightIndex) {
+		boolean isValid = true;
+
+		if (array == null || array.length <= 0) {
+			isValid = false;
+		} else if ((leftIndex >= rightIndex) || (leftIndex < 0) || (rightIndex <= 0)) {
+			isValid = false;
+		} else if ((rightIndex > array.length - 1) || leftIndex >= array.length) {
+			isValid = false;
+		}
+
+		return isValid;
 	}
 
 	private void merge(T[] array, int leftIndex, int middleIndex, int rightIndex){

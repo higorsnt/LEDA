@@ -17,11 +17,25 @@ public class QuickSort<T extends Comparable<T>> extends AbstractSorting<T> {
 	public void sort(T[] array, int leftIndex, int rightIndex) {
 		int pivot;
 
-		if (leftIndex < rightIndex && (leftIndex >= 0 && rightIndex >= 0)){
+		if (validation(array, leftIndex, rightIndex)) {
 			pivot = this.partition(array, leftIndex, rightIndex);
 			this.sort(array, leftIndex, pivot - 1);
 			this.sort(array, pivot + 1, rightIndex);
 		}
+	}
+
+	private boolean validation(T[] array, int leftIndex, int rightIndex) {
+		boolean isValid = true;
+
+		if (array == null || array.length <= 0) {
+			isValid = false;
+		} else if ((leftIndex >= rightIndex) || (leftIndex < 0) || (rightIndex <= 0)) {
+			isValid = false;
+		} else if ((rightIndex > array.length - 1) || leftIndex >= array.length) {
+			isValid = false;
+		}
+
+		return isValid;
 	}
 
 	private int partition(T[] array, int leftIndex, int rightIndex){
