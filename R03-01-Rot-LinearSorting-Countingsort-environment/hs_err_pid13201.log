@@ -1,0 +1,21 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007ff1e7f0384b, pid=13201, tid=13204
+#
+# JRE version: OpenJDK Runtime Environment (10.0.2+13) (build 10.0.2+13-Ubuntu-1ubuntu0.18.04.4)
+# Java VM: OpenJDK 64-Bit Server VM (10.0.2+13-Ubuntu-1ubuntu0.18.04.4, mixed mode, tiered, compressed oops, g1 gc, linux-amd64)
+# Problematic frame:
+# V  [libjvm.so+0xabd84b]
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/share/apport/apport %p %s %c %d %P" (or dumping to /home/higorsbd/Downloads/R03-01-Rot-LinearSorting-Countingsort-environment/core.13201)
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:24149,suspend=y,server=n -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/opt/intellij/lib/rt/debugger-agent.jar=file:/tmp/capture.props -Dfile.encoding=UTF-8 com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 -junit4 sorting.test.StudentSortingTest
+
+Host: 
