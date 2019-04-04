@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2355d933-526e-4a93-9fa8-27955afa4912" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.java" afterDir="false" />
-    </list>
+    <list default="true" id="2355d933-526e-4a93-9fa8-27955afa4912" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -201,7 +197,7 @@
       <updated>1554154300612</updated>
       <workItem from="1554154305286" duration="10693000" />
       <workItem from="1554168228571" duration="6691000" />
-      <workItem from="1554341752906" duration="834000" />
+      <workItem from="1554341752906" duration="1429000" />
     </task>
     <servers />
   </component>
@@ -238,7 +234,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18218000" />
+    <option name="totallyTimeSpent" value="18813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
