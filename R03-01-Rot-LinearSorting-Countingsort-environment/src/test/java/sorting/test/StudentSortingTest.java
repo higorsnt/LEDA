@@ -8,6 +8,7 @@ import org.junit.Test;
 
 import sorting.AbstractSorting;
 import sorting.linearSorting.CountingSort;
+import sorting.linearSorting.ExtendedCountingSort;
 
 public class StudentSortingTest {
 
@@ -40,7 +41,7 @@ public class StudentSortingTest {
     private void getImplementation() {
         // TODO O aluno deve instanciar sua implementação abaixo ao invés de
         // null
-        this.implementation = new CountingSort();
+        this.implementation = new ExtendedCountingSort();
         //Assert.fail("Implementation not provided");
     }
 
@@ -108,4 +109,37 @@ public class StudentSortingTest {
      * SEGUIR A ESTRUTURA DOS MÉTODOS DE TESTE ACIMA DESCRITOS, ORDENANDO APENAS
      * UMA PARTE DO ARRAY.
      */
+
+    private Integer[] vetorNegativo;
+    private Integer[] vetorNegativoEPositivo;
+
+    // Métodos para popular os novos arrays criados
+    public void popularVetorDescrescente(Integer[] arrayPadrao){
+        this.vetorNegativo = Arrays.copyOf(arrayPadrao,
+                arrayPadrao.length);
+    }
+
+    public void popularVetorNegativoEPositivo(Integer[] arrayPadrao){
+        this.vetorNegativoEPositivo = Arrays.copyOf(arrayPadrao,
+                arrayPadrao.length);
+    }
+
+    @Before
+    public void otherSetUp(){
+        popularVetorDescrescente(new Integer[] {1, 0, -1, -2, -3, -4, -5,
+                -6, -7, -8, -9, -10, -11, -12, -13, -14, -15, -16, -17, -18,
+                -19, -20, -21, -22, -23, -24});
+        popularVetorNegativoEPositivo(new Integer[] {-8, 2, 6, -7, 4, -8, -10, -7, 1, 1,
+                0, 0, 2, 5, -8, -4, -22, -9, -10, -7, 15, 30, -22, -7, 33});
+    }
+
+    @Test
+    public void testSort06() {
+        genericTest(vetorNegativo);
+    }
+
+    @Test
+    public void testSort07() {
+        genericTest(vetorNegativoEPositivo);
+    }
 }
