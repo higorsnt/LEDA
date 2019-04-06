@@ -4,7 +4,7 @@ Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
 ## Algoritmos de Ordenação
 
 ### Ordenação por Comparação Iterativos
-* [Bubble Sort](/R01 - SimpleSorting)
+* [Bubble Sort](/"R01 - SimpleSorting")
 * Selection Sort
 * Insertion Sort
 
