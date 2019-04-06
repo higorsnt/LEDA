@@ -4,7 +4,7 @@ Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
 ## Algoritmos de Ordenação
 
 ### Ordenação por Comparação Iterativos
-* Bubble Sort
+* [Bubble Sort](R01 - SimpleSorting/)
 * Selection Sort
 * Insertion Sort
 
@@ -16,7 +16,7 @@ Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
 * Couting Sort
 
 
-<center>Comparação dos Algoritmos de Ordenação
+### Comparação dos Algoritmos de Ordenação
 
 |   Algoritmo    | Pior Caso | Caso Médio |
 |  :---------:   | :-------: | :--------: |
@@ -30,6 +30,6 @@ Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
 |   Bucket Sort  |  O(m + n) |   O(m + n) |
 
 
-
+<p align="center">
 <img src="http://alumni.computacao.ufcg.edu.br/static/logica/images/logo.png"/>
-</center>
+</p>
