@@ -6,7 +6,10 @@ Nesse roteiro deve-se implementar os algoritmos de ordenação por comparação 
 
 Dado um vetor de tamanho _n_, para realizar a ordenação nesse método é necessário realizar diversas comparações entre elementos adjacentes e se caso necessário troca-los. Ou seja, cada elemento de posição _i_ será comparado com o elemento de posição _i + 1_, e quando a ordenação procurada (crescente ou decrescente) é encontrada, uma troca de posições entre os elementos é feita.  
 
-![Bubble Sort](https://commons.wikimedia.org/wiki/File:Bubble-sort.gif#/media/File:Bubble-sort.gif)
+<p align="center">
+<img src="https://codepumpkin.com/wp-content/uploads/2017/10/bubble.gif"/>
+Fonte: CodePumpkin
+</p>
 
 Versões melhoradas:
 1. Cada elemento de posição _i_ será comparado com o de posição _i - 1_, e quando a ordenação procurada (crescente ou decrescente) é encontrada, uma troca de posições entre os elementos é feita. Assim, temos dois laços, o laço externo `for(int i = 1; i < n; i++)` e o laço interno `for(int j = n - 1; j >= i; j--)`;
@@ -56,6 +59,11 @@ def BubbleSortRecursive(lista, n):
 
 Inicialmente procura-se o menor elemento por meio de uma busca linear e o troca com o elemento na primeira posição. Em seguida, procura-se o segundo menor elemento e o troca com o elemento da segunda posição... Continuando até que todos elementos estejam na posição correta.
 
+<p align="center">
+<img src="https://codepumpkin.com/wp-content/uploads/2017/10/selectionSort.gif"/>
+Fonte: CodePumpkin
+</p>
+
 **Características**
 1. Em seu pior caso é O(n²)
 2. É um algoritmo estável<sup>[1](#footnote-1)</sup> e _in-place<sup>[2](#footnote-2)</sup>_
@@ -95,6 +103,11 @@ def SelectionSortRecursivo(lista, index):
 ## 🔎 Insertion Sort
 
 Iniciando a partir do segundo elemento (número eleito na primeira execução), o insertion faz se considerar que todos os elementos à esquerda deste está ordenado. E por meio de um laço serão feitas comparações do segundo elemento ao último. Enquanto existirem elementos à esquerda do número eleito para comparações e for menor que o eleito o laço será executado.
+
+<p align="center">
+<img src="https://cdn-images-1.medium.com/max/1600/1*krA0OFxEDgi8hVHJffCi4w.gif"/>
+Fonte: <a href="https://medium.com/yay-its-erica/algorithms-for-beginners-bubble-sort-insertion-sort-merge-sort-29bd5506cc48">Medium</a>
+</p>
 
 **Características**
 1. Pior caso é O(n²), porém pode chegar a ser O(n)
