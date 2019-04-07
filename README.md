@@ -5,9 +5,9 @@ Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
 
 ### Ordenação por Comparação Iterativos
 
-* [Bubble Sort](/R01_SimpleSorting)
-* Selection Sort
-* Insertion Sort
+* [Bubble Sort](/R01_SimpleSorting#-bubble-sort)
+* [Selection Sort](/R01_SimpleSorting#-selection-sort)
+* [Insertion Sort](/R01_SimpleSorting#-insertion-sort)
 
 ### Ordenação por Comparação (Divisão e Conquista)
 * Merge Sort
