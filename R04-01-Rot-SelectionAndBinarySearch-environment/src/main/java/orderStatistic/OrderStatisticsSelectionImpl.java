@@ -21,25 +21,41 @@ public class OrderStatisticsSelectionImpl<T extends Comparable<T>> implements Or
 	 */
 	@Override
 	public T getOrderStatistics(T[] array, int k) {
-		if (array != null && array.length > 0 && k > 0 && k < array.length){
-			T minor = array[0];
-			for (int i = 0; i < array.length; i++) {
-				if (array[i].compareTo(minor) < 0){
+		T minor = null;
+
+		if (array != null && array.length > 0 && k > 0 && k <= array.length){
+			minor = array[0];
+			int indexBigger = 0;
+			for (int i = 1; i < array.length; i++) {
+				if (array[i].compareTo(minor) <= 0){
 					minor = array[i];
 				}
+				if (array[i].compareTo(array[indexBigger]) > 0){
+					indexBigger = i;
+				}
 			}
-			
-			orderStatistics();
+
+			int index;
+
+			for (int i = 1; i <= k - 1; i++) {
+				index = this.selectionSort(array, minor, indexBigger);
+				minor = array[index];
+			}
 		}
+		return minor;
 	}
-	
-	public T orderStatistics(T[] array, int index, T minor, int k){
-		if (k == 0){
-			return minor;
+
+	public int selectionSort(T[] array, T minor, int indexBigger){
+		int indexMinor = indexBigger;
+
+		for (int i = 0; i < array.length; i++) {
+			if ((array[indexMinor].compareTo(array[i]) > 0) && (array[i].compareTo(minor) > 0)){
+				indexMinor = i;
+			}
 		}
-		for (int i = 0; i < ; i++) {
-			
-		}
+
+		return indexMinor;
+
 	}
 
 }
