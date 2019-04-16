@@ -13,37 +13,53 @@ public class QueueImpl<T> implements Queue<T> {
 
 	@Override
 	public T head() {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		T head = null;
+
+		if (!this.isEmpty()){
+			head = this.array[0];
+		}
+
+		return head;
 	}
 
 	@Override
 	public boolean isEmpty() {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		return (this.tail == -1);
 	}
 
 	@Override
 	public boolean isFull() {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		return (this.tail == this.array.length - 1);
 	}
 
 	private void shiftLeft() {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		for (int i = 1; i < array.length; i++) {
+			this.array[i - 1] = this.array[i];
+		}
 	}
 
 	@Override
 	public void enqueue(T element) throws QueueOverflowException {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if (this.isFull()) {
+			throw new QueueOverflowException();
+		}
+
+		if (element != null) {
+			this.array[++this.tail] = element;
+		}
 	}
 
 	@Override
 	public T dequeue() throws QueueUnderflowException {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if (this.isEmpty()){
+			throw new QueueUnderflowException();
+		}
+
+		T element = this.array[0];
+		this.tail--;
+		this.shiftLeft();
+
+		return element;
 	}
 
 }

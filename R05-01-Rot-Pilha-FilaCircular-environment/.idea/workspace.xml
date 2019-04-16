@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3136b07-627b-40b5-8c40-9641ae236a27" name="Default Changelist" comment="" />
+    <list default="true" id="a3136b07-627b-40b5-8c40-9641ae236a27" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/118110808-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/118110808-send.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/queue/CircularQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/queue/CircularQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/queue/QueueImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/queue/QueueImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/stack/StackImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/stack/StackImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/adt/queue/StudentQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adt/queue/StudentQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/adt/stack/StudentStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adt/stack/StudentStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/queue/CircularQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/queue/CircularQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/queue/QueueImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/queue/QueueImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/stack/StackImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/stack/StackImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/adt/queue/StudentQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/adt/queue/StudentQueueTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/adt/stack/StudentStackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/adt/stack/StudentStackTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,91 +23,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1088186209">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="411" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="411" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="163" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/StackImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+            <state relative-caret-position="144">
+              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
               <folding>
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/adt/stack/StudentStackTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/StackOverflowException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/StackUnderflowException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -101,8 +60,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/adt/stack/StackImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/adt/stack/StudentStackTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/adt/queue/QueueImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/adt/queue/CircularQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adt/queue/QueueImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adt/stack/StackImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/adt/queue/StudentQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adt/queue/CircularQueue.java" />
       </list>
     </option>
   </component>
@@ -118,7 +82,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,65 +117,29 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="adt" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R05-01-Rot-Pilha-FilaCircular-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="adt" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R05-01-Rot-Pilha-FilaCircular-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R05-01-Rot-Pilha-FilaCircular-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R05-01-Rot-Pilha-FilaCircular-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="adt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R05-01-Rot-Pilha-FilaCircular-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="adt" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="submission" type="b2602c69:ProjectViewProjectNode" />
-              <item name="R05-01-Rot-Pilha-FilaCircular-environment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="adt" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555357736196" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="adt.queue" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -224,7 +153,69 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.StudentQueueTest">
+    <configuration name="QueueImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adt.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adt.queue" />
+      <option name="MAIN_CLASS_NAME" value="adt.queue.QueueImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueImplTest.testEnqueueVaziaCheia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adt.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adt.queue" />
+      <option name="MAIN_CLASS_NAME" value="adt.queue.QueueImplTest" />
+      <option name="METHOD_NAME" value="testEnqueueVaziaCheia" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adt.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adt.queue" />
+      <option name="MAIN_CLASS_NAME" value="adt.queue.StudentQueueTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentQueueTest.testHead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adt.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adt.queue" />
+      <option name="MAIN_CLASS_NAME" value="adt.queue.StudentQueueTest" />
+      <option name="METHOD_NAME" value="testHead" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
@@ -235,13 +226,18 @@
       </extension>
       <option name="PACKAGE_NAME" value="adt.stack" />
       <option name="MAIN_CLASS_NAME" value="adt.stack.StudentStackTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentQueueTest" />
+        <item itemvalue="JUnit.QueueImplTest" />
         <item itemvalue="JUnit.StudentStackTest" />
+        <item itemvalue="JUnit.StudentQueueTest.testHead" />
+        <item itemvalue="JUnit.QueueImplTest.testEnqueueVaziaCheia" />
       </list>
     </recent_temporary>
   </component>
@@ -255,89 +251,97 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555356232610</updated>
+      <workItem from="1555361216191" duration="12666000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentStackTest - 2019.04.15 at 16h 44m 27s.xml">
+    <history-entry file="StudentQueueTest - 2019.04.15 at 21h 53m 48s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentQueueTest - 2019.04.15 at 21h 59m 52s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentQueueTest - 2019.04.15 at 22h 05m 48s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentStackTest - 2019.04.15 at 22h 10m 31s.xml">
       <configuration name="StudentStackTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentStackTest - 2019.04.15 at 16h 45m 03s.xml">
+    <history-entry file="StudentStackTest - 2019.04.15 at 22h 10m 32s.xml">
       <configuration name="StudentStackTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentStackTest - 2019.04.15 at 16h 46m 24s.xml">
-      <configuration name="StudentStackTest" configurationId="JUnit" />
+    <history-entry file="StudentQueueTest - 2019.04.15 at 22h 11m 41s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentStackTest - 2019.04.15 at 16h 48m 59s.xml">
-      <configuration name="StudentStackTest" configurationId="JUnit" />
+    <history-entry file="StudentQueueTest - 2019.04.15 at 22h 14m 15s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueImplTest - 2019.04.15 at 22h 14m 28s.xml">
+      <configuration name="QueueImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentQueueTest - 2019.04.15 at 22h 16m 58s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentQueueTest - 2019.04.15 at 22h 17m 11s.xml">
+      <configuration name="StudentQueueTest" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12666000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1533" height="875" extended-state="6" />
+    <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24949563" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25379092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32561985" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28595042" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.3289256" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289256" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32960895" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/submission$QueueImplTest_testEnqueueVaziaCheia.ic" NAME="QueueImplTest.testEnqueueVaziaCheia Coverage Results" MODIFIED="1555373080741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>adt.queue.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/submission$QueueImplTest.ic" NAME="QueueImplTest Coverage Results" MODIFIED="1555373629336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>adt.queue.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/adt/queue/StudentQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/StackUnderflowException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/StackImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="32" column="48" lean-forward="true" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-          <folding>
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -348,10 +352,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/StackUnderflowException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/adt/queue/CircularQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/queue/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/adt/stack/StudentStackTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="72">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/queue/QueueImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/queue/CircularQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="49" column="29" lean-forward="true" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/adt/queue/QueueImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1058">
+          <caret line="89" column="14" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
+          <folding>
+            <element signature="e#2375#2376#0" expanded="true" />
+            <element signature="e#2446#2447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/adt/queue/StudentQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/stack/StackImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -360,7 +431,7 @@
     <states>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>10</last-edited>
+          <last-edited>11.0.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

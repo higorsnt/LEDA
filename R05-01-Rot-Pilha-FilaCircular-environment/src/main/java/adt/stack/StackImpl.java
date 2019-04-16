@@ -1,7 +1,5 @@
 package adt.stack;
 
-import java.util.Arrays;
-
 public class StackImpl<T> implements Stack<T> {
 
 	private T[] array;
@@ -17,8 +15,9 @@ public class StackImpl<T> implements Stack<T> {
 	public T top() {
 		T top = null;
 
-		if (!this.isEmpty())
+		if (!this.isEmpty()) {
 			top = this.array[this.top];
+		}
 
 		return top;
 	}
@@ -35,20 +34,22 @@ public class StackImpl<T> implements Stack<T> {
 
 	@Override
 	public void push(T element) throws StackOverflowException {
-		if (this.isFull()){
+		if (this.isFull()) {
 			throw new StackOverflowException();
 		}
 
-		this.array[++this.top] = element;
+		if (element != null) {
+			this.array[++this.top] = element;
+		}
 	}
 
 	@Override
 	public T pop() throws StackUnderflowException {
-		if (!this.isEmpty()){
-			return this.array[this.top--];
+		if (this.isEmpty()) {
+			throw new StackUnderflowException();
 		}
 
-		throw new StackUnderflowException();
+		return this.array[this.top--];
 	}
 
 }
