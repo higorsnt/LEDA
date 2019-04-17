@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ac728bb-7f75-42d0-8619-385fdd4cc396" name="Default Changelist" comment="" />
+    <list default="true" id="3ac728bb-7f75-42d0-8619-385fdd4cc396" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DoisSomam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FilaComArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InverteFrase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PotenciaRecursiva.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/TST/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TST/BinarySearch.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +21,39 @@
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="145400071">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2365" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2365" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -27,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MoveImpostor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="19" column="16" selection-end-line="33" />
+            <state relative-caret-position="576">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,10 +82,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BinarySearch.java">
+        <entry file="file://$PROJECT_DIR$/src/DoisSomam.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/InverteFrase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" column="35" selection-end-line="32" />
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PotenciaRecursiva.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FilaComArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+              <folding>
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BinarySearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="25" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -51,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ElementosRepetidos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="342">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -66,6 +156,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>import java\.util\.Scanner\;\n\npublic class FilaComArray \{\n\n    private int\[\] array\;\n    private int head\;\n    private int tail\;\n    private int elements\;\n\n    public FilaComArray\(int size\) \{\n        this\.array \= new int\[size \+ 1\]\;\n        this\.head \= 0\;\n        this\.elements \= 0\;\n        this\.tail \= 0\;\n    \}\n\n    private boolean isFull\(\)\{\n        return \(this\.elements \=\= this\.array\.length \- 1\)\;\n    \}\n\n    private boolean isEmpty\(\) \{\n        return \(this\.elements \=\= 0\)\;\n    \}\n\n    public void add\(int e\) \{\n        if \(isFull\(\)\) System\.out\.println\(\&quot;full\&quot;\)\;\n        else \{\n            this\.array\[this\.tail\+\+\] \= e\;\n            this\.elements\+\+\;\n        \}\n    \}\n\n    public void element\(\)\{\n        if \(isEmpty\(\)\) System\.out\.println\(\&quot;empty\&quot;\)\;\n        else System\.out\.println\(this\.array\[this\.head\]\)\;\n    \}\n\n    public void remove\(\) \{\n        if \(isEmpty\(\)\) System\.out\.println\(\&quot;empty\&quot;\)\;\n        else \{\n            this\.head\+\+\;\n            this\.elements\-\-\;\n        \}\n    \}\n\n    public void print\(\) \{\n        String s \= \&quot;\&quot;\;\n            for \(int i \= this\.head\; i \&lt; this\.tail\; i\+\+\) \{\n                s \+\= this\.array\[i\] \+ \&quot; \&quot;\;\n            \}\n\n            System\.out\.println\(s\.trim\(\)\)\;\n    \}\n\n    public static void main\(String\[\] args\) \{\n        Scanner sc \= new Scanner\(System\.in\)\;\n\n        FilaComArray f \= new FilaComArray\(sc\.nextInt\(\)\)\;\n        sc\.nextLine\(\)\;\n        String op\;\n\n        while \(true\)\{\n            op \= sc\.nextLine\(\)\;\n\n            if \(op\.equalsIgnoreCase\(\&quot;print\&quot;\)\)\{\n                f\.print\(\)\;\n            \} else if \(op\.equalsIgnoreCase\(\&quot;remove\&quot;\)\) \{\n                f\.remove\(\)\;\n            \} else if \(op\.equalsIgnoreCase\(\&quot;element\&quot;\)\) \{\n                f\.element\(\)\;\n            \} else if \(op\.split\(\&quot; \&quot;\)\[0\]\.equalsIgnoreCase\(\&quot;add\&quot;\)\) \{\n                f\.add\(Integer\.parseInt\(op\.split\(\&quot; \&quot;\)\[1\]\)\)\;\n            \} else if \(op\.equalsIgnoreCase\(\&quot;end\&quot;\)\) \{\n                break\;\n            \}\n        \}\n    \}\n\n\}\n</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -75,6 +170,11 @@
         <option value="$PROJECT_DIR$/src/FuraFila.java" />
         <option value="$PROJECT_DIR$/src/MoveImpostor.java" />
         <option value="$PROJECT_DIR$/src/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/DoisSomam.java" />
+        <option value="$PROJECT_DIR$/src/InverteFrase.java" />
+        <option value="$PROJECT_DIR$/src/PotenciaRecursiva.java" />
+        <option value="$PROJECT_DIR$/src/Fila.java" />
+        <option value="$PROJECT_DIR$/src/FilaComArray.java" />
       </list>
     </option>
   </component>
@@ -85,10 +185,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="198" />
-    <option name="y" value="27" />
-    <option name="width" value="1400" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="372" />
+    <option name="y" value="56" />
+    <option name="width" value="1380" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -97,6 +197,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,15 +215,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553879998193" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555530750634" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -139,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.FilaComArray">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch" />
       <module name="TST" />
@@ -147,25 +249,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FuraFila" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FuraFila" />
+    <configuration name="Fila" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fila" />
       <module name="TST" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveImpostor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MoveImpostor" />
+    <configuration name="FilaComArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FilaComArray" />
       <module name="TST" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InverteFrase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InverteFrase" />
+      <module name="TST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PotenciaRecursiva" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PotenciaRecursiva" />
+      <module name="TST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BinarySearch" />
+      <item itemvalue="Application.InverteFrase" />
+      <item itemvalue="Application.PotenciaRecursiva" />
+      <item itemvalue="Application.Fila" />
+      <item itemvalue="Application.FilaComArray" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FilaComArray" />
+        <item itemvalue="Application.Fila" />
+        <item itemvalue="Application.PotenciaRecursiva" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.MoveImpostor" />
-        <item itemvalue="Application.FuraFila" />
+        <item itemvalue="Application.InverteFrase" />
       </list>
     </recent_temporary>
   </component>
@@ -189,9 +314,9 @@
     <option name="totallyTimeSpent" value="9435000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="27" width="1299" height="741" extended-state="6" />
+    <frame x="372" y="56" width="1380" height="1000" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26177174" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.36806595" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24980047" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -200,7 +325,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289256" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3275862" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -208,7 +333,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289256" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32864866" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -226,17 +351,8 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MoveImpostor.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/FuraFila.java">
@@ -249,26 +365,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearch.java">
+    <entry file="file://$PROJECT_DIR$/src/MoveImpostor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DoisSomam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InverteFrase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" column="35" selection-end-line="32" />
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PotenciaRecursiva.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ElementosRepetidos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="342">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MoveImpostor.java">
+    <entry file="file://$PROJECT_DIR$/src/FilaComArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="16" selection-end-line="33" />
+        <state relative-caret-position="18">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
           </folding>
         </state>
       </provider>
