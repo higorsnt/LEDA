@@ -10,8 +10,8 @@ Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
 * [Insertion Sort](/R01_SimpleSorting#-insertion-sort)
 
 ### Ordenação por Comparação (Divisão e Conquista)
-* Merge Sort
-* Quick Sort
+* [Merge Sort](/R02_RecursiveSorting#-merge-sort)
+* [Quick Sort](/R02_RecursiveSorting#-quick-sort)
 
 ### Ordenação Linear
 * Couting Sort

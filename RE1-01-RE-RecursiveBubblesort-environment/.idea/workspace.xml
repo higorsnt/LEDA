@@ -2,49 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efc768e1-8b64-4045-ae11-1b8d68dc59dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/118110808-send.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/src/main/java/sorting/AbstractSorting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/src/main/java/sorting/Sorting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/src/main/java/sorting/simpleSorting/BubbleSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/src/main/java/sorting/simpleSorting/InsertionSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/src/main/java/sorting/simpleSorting/SelectionSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/src/main/java/sorting/variationsOfBubblesort/SimultaneousBubblesort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/src/main/java/util/Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/src/main/main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/src/test/test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/118110808.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/classes/sorting/AbstractSorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/classes/sorting/Sorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/classes/sorting/simpleSorting/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/classes/sorting/simpleSorting/InsertionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/classes/sorting/simpleSorting/SelectionSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/classes/sorting/variationsOfBubblesort/SimultaneousBubblesort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/classes/util/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/submission-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/surefire-reports/TEST-sorting.test.StudentSortingTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/surefire-reports/sorting.test.StudentSortingTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/test-classes/sorting/test/StudentSortingTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/web/static/js/chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/web/static/js/d3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/web/static/js/nv.d3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/web/static/stylesheet/nv.d3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/target/web/static/stylesheet/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R01 - SimpleSorting/walkmod.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R04-01-Rot-SelectionAndBinarySearch-environment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sorting/AbstractSorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sorting/Sorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sorting/variationsOfBubblesort/RecursiveBubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sorting/variationsOfBubblesort/Teste.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,7 +21,7 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
@@ -68,7 +30,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorting/AbstractSorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="378">
               <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
             </state>
           </provider>
@@ -78,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/sorting/variationsOfBubblesort/RecursiveBubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -95,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorting/Sorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
+            <state relative-caret-position="270">
               <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
@@ -157,6 +119,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -169,10 +132,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -221,28 +184,23 @@
       <option name="presentableId" value="Default" />
       <updated>1554603545830</updated>
       <workItem from="1554603555013" duration="1275000" />
+      <workItem from="1554758701464" duration="372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1275000" />
+    <option name="totallyTimeSpent" value="1647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1299" height="741" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980047" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25379092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3289256" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289256" />
@@ -250,15 +208,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" weight="0.32960895" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3289256" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32960895" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,16 +232,9 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sorting/Sorting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorting/AbstractSorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="378">
           <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
         </state>
       </provider>
@@ -289,10 +246,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sorting/Sorting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorting/variationsOfBubblesort/RecursiveBubbleSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
