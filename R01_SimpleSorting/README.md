@@ -116,7 +116,7 @@ def SelectionSortRecursivo(lista, index):
         if (lista[i] < lista[minimo]):
             minimo = i
     swap(lista, minimo, index)
-    InsertionSortRecursivo(lista, index + 1)
+    SelectionSortRecursivo(lista, index + 1)
 ```
 
 ## 🔎 Insertion Sort
@@ -154,7 +154,7 @@ def InsertioSortRecursivo(lista, i):
         lista[j + 1] = lista[j]
         j -= 1
     lista[j + 1] = chave
-    SelectionSortRecursivo(lista, i + 1)
+    InsertioSortRecursivo(lista, i + 1)
 ```
 
 ## 🔎 Simultaneous BubbleSort (Cocktail Sort)
