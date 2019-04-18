@@ -157,7 +157,7 @@ def InsertioSortRecursivo(lista, i):
     SelectionSortRecursivo(lista, i + 1)
 ```
 
-## :mag: Simultaneous BubbleSort (Cocktail Sort)
+## 🔎 Simultaneous BubbleSort (Cocktail Sort)
 
 É uma variação do [Bubble Sort](/R01_SimpleSorting#-bubble-sort) que consiste em ordenar em duas direções ao mesmo tempo. Dessa forma me garante que o menor e o maior elemento do array desordenado estará em sua posição correta.
 
