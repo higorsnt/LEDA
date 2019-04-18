@@ -22,21 +22,28 @@ Versões melhoradas:
 
 
 **Implementações do Bubble Sort**
+
 ```python
 def swap(lista, i, j):
     temp = lista[i]
     lista[i] = lista[j]
     lista[j] = temp
+
+
 def BubbleSort(lista):
     for i in range(len(lista) - 1):
         for j in range(len(lista) - 1):
             if (lista[j] > lista[j + 1]):
                 swap(lista, j + 1, j)
+
+
 def BubbleSortV1(lista):
     for i in range(len(lista) - 1):
         for j in range(len(lista) - 1, i, -1):
             if (lista[j - 1] > lista[j]):
                 swap(lista, j - 1, j)
+
+
 def BubbleSortV2(lista):
     swapped = True
     while (swapped):
@@ -46,6 +53,8 @@ def BubbleSortV2(lista):
             if (lista[i] > lista[i + 1]):
                 swap(lista, i, i + 1)
                 swapped = True
+
+
 def BubbleSortRecursive(lista, n):
     if (n == 1):
         return
@@ -70,29 +79,39 @@ Fonte: CodePumpkin
 3. Possui poucas trocas (fazendo-o melhor que o Bubble Sort)
 
 **Implementações do Selection Sort**
+
 ```python
 def swap(lista, i, j):
     temp = lista[i]
     lista[i] = lista[j]
     lista[j] = temp
+
+
 def SelectionSortMin(lista):
     for i in range(len(lista)):
         minimo = i
+
         for j in range(i + 1, len(lista)):
             if (lista[j] < lista[minimo]):
                 minimo = j
         swap(lista, minimo, i)
+
+
 def SelectionSortMax(lista):
     for i in range(len(lista) - 1, -1, -1):
         maximo = i
+
         for j in range(i - 1, -1, -1):
             if (lista[j] > lista[maximo]):
                 maximo = j
         swap(lista, i, maximo)
+
+
 def SelectionSortRecursivo(lista, index):
     if (index == len(lista)):
         return
     minimo = index
+
     for i in range(index + 1, len(lista)):
         if (lista[i] < lista[minimo]):
             minimo = i
@@ -115,6 +134,7 @@ Fonte: <a href="https://medium.com/yay-its-erica/algorithms-for-beginners-bubble
 3. Muita troca e menos comparações
 
 **Implementações**
+
 ```python
 def InsertioSort(lista):
     for i in range(1, len(lista)):
@@ -137,6 +157,46 @@ def InsertioSortRecursivo(lista, i):
     SelectionSortRecursivo(lista, i + 1)
 ```
 
+## :mag: Simultaneous BubbleSort (Cocktail Sort)
+
+É uma variação do [Bubble Sort](/R01_SimpleSorting#-bubble-sort) que consiste em ordenar em duas direções ao mesmo tempo. Dessa forma me garante que o menor e o maior elemento do array desordenado estará em sua posição correta.
+
+<p align="center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Sorting_shaker_sort_anim.gif"/>
+Fonte: <a href="https://en.wikipedia.org/wiki/Cocktail_shaker_sort#/media/File:Sorting_shaker_sort_anim.gif">Wikipédia</a>
+</p>
+
+**Implementações**
+
+```python
+def swap(lista, i, j):
+    temp = lista[i]
+    lista[i] = lista[j]
+    lista[j] = temp
+
+
+def CocktailSort(lista):
+    swapped = True
+    inicio = 0
+    fim = len(lista)
+
+    while (swapped):
+        swapped = False
+
+        for i in range(inicio, fim - 1):
+            if (lista[i] > lista[i + 1]):
+                swap(lista, i, i + 1)
+                swapped = True
+        
+        fim -= 1
+
+        for i in range(fim - 1, inicio, -1):
+            if (lista[i] < lista[i - 1]):
+                swap(lista, i, i - 1)
+                swapped = True
+        
+        inicio += 1
+```
 ____________________________________________________
 1. <a name="footnote-1"></a> Algoritmos estáveis mantêm a ordem de dois elementos que possuem a mesma chave. Exemplo, `["C", "A", "A"]` ao se ordenar `[1]` continuará aparecendo antes de `[2]`.
 2. <a name="footnote-2"></a> Algoritmo _in-place_ significa que a ordenação é feita no mesmo local onde os dados estão armazenados.

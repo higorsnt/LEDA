@@ -8,6 +8,7 @@ Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
 * [Bubble Sort](/R01_SimpleSorting#-bubble-sort)
 * [Selection Sort](/R01_SimpleSorting#-selection-sort)
 * [Insertion Sort](/R01_SimpleSorting#-insertion-sort)
+* [Cocktail Sort](/R01_SimpleSorting#-simultaneous-bubbleSort-cocktail-sort)
 
 ### Ordenação por Comparação (Divisão e Conquista)
 * [Merge Sort](/R02_RecursiveSorting#-merge-sort)
