@@ -26,11 +26,11 @@ A ideia por trás desse algoritmo é contar, para cada elemento do array, quanto
 
 ```python
 def counting_sort(lista, inicio, fim):
-    copia = lista[:]
+    copia = lista[inicio:fim + 1]
     maximo = max(copia)
     ocorrencias = [0] * (maximo + 1)
 
-    for i in range(len(copia)):
+    for i in range(inicio, fim + 1):
         ocorrencias[copia[i]] += 1
     
     for i in range(len(ocorrencias) - 1):
@@ -43,6 +43,6 @@ def counting_sort(lista, inicio, fim):
         ocorrencias[elemento] -= 1
         resultado[ocorrencias[elemento]] = elemento
     
-    for i in range(len(resultado)):
+    for i in range(inicio, fim + 1):
         lista[i] = resultado[i]
 ```

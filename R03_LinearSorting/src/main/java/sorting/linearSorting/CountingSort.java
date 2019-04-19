@@ -17,15 +17,10 @@ public class CountingSort extends AbstractSorting<Integer> {
 	public void sort(Integer[] array, int leftIndex, int rightIndex) {
 		if (validation(array, leftIndex, rightIndex)){
 			Integer max = array[leftIndex];
-			Integer min = array[leftIndex];
 
 			for (int i = leftIndex; i <= rightIndex; i++) {
 				if (array[i].compareTo(max) > 0) {
 					max = array[i];
-				}
-
-				if (array[i].compareTo(min) < 0) {
-					min = array[i];
 				}
 			}
 

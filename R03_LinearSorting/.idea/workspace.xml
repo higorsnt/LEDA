@@ -2,51 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44222095-7e70-4d9b-9563-b1e0f665ccd6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../R02_RecursiveSorting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R02_RecursiveSorting/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R02_RecursiveSorting/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R02_RecursiveSorting/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R02_RecursiveSorting/src/main/java/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R02_RecursiveSorting/src/main/java/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R02_RecursiveSorting/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../R02_RecursiveSorting/src/test/java/sorting/test/StudentSortingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R02_RecursiveSorting/target/classes/sorting/divideAndConquer/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R02_RecursiveSorting/target/classes/sorting/divideAndConquer/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R02_RecursiveSorting/target/classes/sorting/divideAndConquer/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R02_RecursiveSorting/target/classes/sorting/divideAndConquer/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R02_RecursiveSorting/target/classes/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R02_RecursiveSorting/target/classes/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R02_RecursiveSorting/target/test-classes/sorting/test/StudentSortingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../R02_RecursiveSorting/target/test-classes/sorting/test/StudentSortingTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/118110808-send.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/src/main/java/sorting/AbstractSorting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/src/main/java/sorting/Sorting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/src/main/java/sorting/linearSorting/CountingSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/src/main/java/sorting/linearSorting/ExtendedCountingSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/src/main/java/util/Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/118110808.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/classes/sorting/AbstractSorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/classes/sorting/Sorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/classes/sorting/linearSorting/CountingSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/classes/sorting/linearSorting/ExtendedCountingSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/classes/util/Util.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/submission-1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/surefire-reports/TEST-sorting.test.StudentSortingTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/surefire-reports/sorting.test.StudentSortingTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/test-classes/sorting/test/StudentSortingTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/web/static/js/chart.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/web/static/js/d3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/web/static/js/nv.d3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/web/static/stylesheet/nv.d3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/target/web/static/stylesheet/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03 - LinearSorting/walkmod.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R05-01-Rot-Pilha-FilaCircular-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coutingsort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            <state relative-caret-position="360">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -73,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
+            <state relative-caret-position="918">
               <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -82,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="774">
+              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,10 +69,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java" />
-        <option value="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/sorting/linearSorting/ExtendedCountingSortTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" />
       </list>
     </option>
   </component>
@@ -145,7 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,7 +116,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ExtendedCountingSortTest">
+  <component name="RunManager" selected="JUnit.StudentSortingTest">
     <configuration name="ExtendedCountingSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
@@ -255,8 +214,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ExtendedCountingSortTest" />
         <item itemvalue="JUnit.StudentSortingTest" />
+        <item itemvalue="JUnit.ExtendedCountingSortTest" />
         <item itemvalue="JUnit.ExtendedCountingSortTest.testOrdenaTodo" />
         <item itemvalue="JUnit.StudentSortingTest.testSort05" />
       </list>
@@ -276,13 +235,11 @@
       <workItem from="1554424932742" duration="3909000" />
       <workItem from="1554431807796" duration="307000" />
       <workItem from="1555707623113" duration="4037000" />
+      <workItem from="1555713548286" duration="85000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentSortingTest - 2019.04.19 at 18h 55m 36s.xml">
-      <configuration name="StudentSortingTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StudentSortingTest - 2019.04.19 at 18h 59m 51s.xml">
       <configuration name="StudentSortingTest" configurationId="JUnit" />
     </history-entry>
@@ -310,9 +267,12 @@
     <history-entry file="ExtendedCountingSortTest - 2019.04.19 at 19h 06m 52s.xml">
       <configuration name="ExtendedCountingSortTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StudentSortingTest - 2019.04.19 at 19h 40m 36s.xml">
+      <configuration name="StudentSortingTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13871000" />
+    <option name="totallyTimeSpent" value="13956000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,7 +286,7 @@
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1296" height="741" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2584" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -475,10 +435,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sorting/linearSorting/ExtendedCountingSortTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/sorting/linearSorting/ExtendedCountingSortTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="360">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -487,28 +455,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="774">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
         </state>
       </provider>
     </entry>
