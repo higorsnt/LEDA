@@ -12,7 +12,8 @@ Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
 
 ### Ordenação por Comparação (Divisão e Conquista)
 * [Merge Sort](/R02_RecursiveSorting#-merge-sort)
-* [Quick Sort](/R02_RecursiveSorting#-quick-sort)
+* [QuickSort](/R02_RecursiveSorting#-quicksort)
+* [Three Way Quick Sort](/R02_RecursiveSorting#-3-way-quicksort)
 
 ### Ordenação Linear
 * Couting Sort

@@ -26,23 +26,9 @@ public class ThreeWayQuickSort<T extends Comparable<T>> extends
 	 **/
 	@Override
 	public void sort(T[] array, int leftIndex, int rightIndex) {
-		if (leftIndex < rightIndex  && (leftIndex >= 0 && rightIndex >= 0)){
+		if (validation(array, leftIndex, rightIndex)){
 			partition(array, leftIndex, rightIndex);
 		}
-	}
-
-	private boolean validation(T[] array, int leftIndex, int rightIndex) {
-		boolean isValid = true;
-
-		if (array == null || array.length <= 0) {
-			isValid = false;
-		} else if ((leftIndex >= rightIndex) || (leftIndex < 0) || (rightIndex <= 0)) {
-			isValid = false;
-		} else if ((rightIndex > array.length - 1) || leftIndex >= array.length) {
-			isValid = false;
-		}
-
-		return isValid;
 	}
 
 	public void partition(T[]array, int leftIndex, int rightIndex) {
@@ -68,5 +54,19 @@ public class ThreeWayQuickSort<T extends Comparable<T>> extends
 			sort(array, leftIndex, start - 1);
 			sort(array, end + 1, rightIndex);
 		}
+	}
+
+	private boolean validation(T[] array, int leftIndex, int rightIndex) {
+		boolean isValid = true;
+
+		if (array == null || array.length == 0) {
+			isValid = false;
+		} else if ((leftIndex >= rightIndex) || (leftIndex < 0) || (rightIndex <= 0)) {
+			isValid = false;
+		} else if ((rightIndex > array.length - 1) || leftIndex >= array.length) {
+			isValid = false;
+		}
+
+		return isValid;
 	}
 }

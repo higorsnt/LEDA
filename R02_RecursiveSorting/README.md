@@ -19,6 +19,7 @@ Fonte: Wikipedia
 2. Não é _in-place_, pois precisa de espaço extra.
 
 **Implementação do Merge Sort**
+
 ```python
 def MergeSort(lista, inicio, fim):
     if (inicio < fim):
@@ -55,7 +56,7 @@ def merge(lista, inicio, meio, fim):
         lista[i] = aux[i]
 ```
 
-## 🔍 Quick Sort
+## 🔍 QuickSort
 De forma semelhante ao merge sort, o quick sort particiona um vetor em dois por meio de recursão. Essa divisão ocorre até que o vetor fique com apenas um elemento, enquanto os demais ficam ordenados à medida que ocorre o particionamento.
 1. **Dividir**: o vetor v[inicio...fim] é particionado em dois subvetores não vazios v[inicio...meio] e v[meio+1...fim], tais que cada elemento de v[inicio...meio] é menor ou igual a cada elemento de v[meio+1...fim]. Para determinar o meio, escolhe-se um elemento, chamado de pivô, e rearranjam-se os elememtos do vetor de forma que os elementos à esquerda do pivô são menores (ou iguais) ao ele e os que ficarem à direita do pivô são maiores (ou iguais) ao pivô.
 2. **Conquistar**: os dois subvetores são ordenados por chamadas recursivas.
@@ -72,79 +73,97 @@ Fonte: Wikipedia
 
 **Implementações**
 1. Versão 1 (pivô como o primeiro elemento):
-```java
-void quickSort(T[] array, int leftIndex, int rightIndex) {
-	int pivot;
 
-	if (validation(array, leftIndex, rightIndex)) {
-		pivot = this.partition(array, leftIndex, rightIndex);
-		this.quickSort(array, leftIndex, pivot - 1);
-		this.quickSort(array, pivot + 1, rightIndex);
-	}
-}
+```python
+def quickSort(array, inicio, fim):
+	if (inicio < fim):
+		pivo = partition(array, inicio, fim)
+		quickSort(array, inicio, pivo - 1)
+		quickSort(array, pivo + 1, fim)
 
-int partition(T[] array, int leftIndex, int rightIndex){
-	T pivot = array[leftIndex];
+def partition(array, inicio, fim):
+    pivo = array[inicio]
+    start = inicio
 
-	int start = leftIndex;
-
-	for (int i = start + 1; i <= rightIndex; i++) {
-		if (array[i].compareTo(pivot) <= 0) {
-			start++;
-			swap(array, start, i);
-		}
-    }
-
-	swap(array, leftIndex, start);
-	return start;
-}
-
-void swap(Object[] array, int i, int j) {
-	if (array == null)
-		throw new IllegalArgumentException();
-
-	Object temp = array[i];
-	array[i] = array[j];
-	array[j] = temp;
-}
+    for i in range(start + 1, fim + 1):
+        if (array[i] <= pivo):
+            start += 1
+            #swap(array, start, i)
+            array[start], array[i] = array[i], array[start]
+    
+    #swap(array, start, inicio)
+    array[start], array[inicio] = array[inicio], array[start]
+    return start
 ```
 
 2. Versão 2 (pivô como elemento do meio):
-```java
-void quickSort(int[] lista, int inicio, int fim){
-    if (inicio < fim){
-        int meio = partition(lista, inicio, fim);
-        quickSort(lista, inicio, meio);
-        quickSort(lista, meio + 1, fim);
-    }
-}
 
-int partition(int[] lista, int inicio, int fim){
-    int meio = (inicio + fim) / 2;
-    int pivo = lista[meio];
-    int i = inicio;
-    int j = fim;
-    
-    while (true){
-        while (lista[i] < pivo){
-            i++;
-        }
+```python
+def QuickSort(lista, inicio, fim):
+    if (inicio < fim):
+        meio = partition(lista, inicio, fim)
+        QuickSort(lista, inicio, meio - 1)
+        QuickSort(lista, meio + 1, fim)
 
-        while (lista[j] > pivo){
-            j--;
-        }
-    
-        if (i >= j){
-            return j;
-        }
 
-        swap(lista, i, j);
-    }
-}
+def partition(lista, inicio, fim):
+    pivo = lista[(inicio + fim) / 2]
+    i = inicio
+    j = fim
 
-void swap(int[] lista, int i, int j){
-    int temp = lista[i];
-    lista[i] = lista[j];
-    lista[j] = temp;
-}
+    while (True):
+        while (lista[i] < pivo):
+            i += 1
+        
+        while (lista[j] > pivo):
+            j -= 1
+        
+        if (i >= j):
+            return j
+        
+        #swap(lista, i, j)
+        lista[i], lista[j] = lista[j], lista[i]
+```
+
+
+## 🔍 3-Way QuickSort
+
+3-Way QuickSort é uma otimização do QuickSort tradicional que melhora a execução do algoritmo quando temos muitas ocorrências de elementos iguais.  
+Ele executa 3 partições no array sendo uma com elementos menores que o pivô, outra com elementos iguais ao pivô e uma terceira contendo os elementos maiores que o pivô.
+
+<p align="center">
+<img src="https://algorithmsandme.com/wp-content/uploads/2018/03/3-way-quicksort.png"/>
+Fonte: Algorithms & Me
+</p>
+
+**Implementação**
+
+```python
+def quickSort(array, inicio, fim):
+	if  (inicio < fim  and (inicio >= 0 and fim >= 0)):
+		partition(array, inicio, fim)
+
+
+def partition(array, inicio, fim):
+	if (inicio < fim):
+		start = inicio
+		end = fim
+		i = inicio
+		pivo = array[inicio]
+
+        while(i <= end):
+            if(array[i] < pivo):
+                # swap(array, start, i)
+                array[start], array[i] = array[i], array[start]
+                start += 1
+                i += 1
+            elif(array[i] > pivo):
+                # swap(array, i, end)
+                array[i], array[end] = array[end], array[i]
+                end -= 1
+            else:
+                i += 1
+        
+        quickSort(array, inicio, start - 1)
+        quickSort(array, end + 1, fim)
 ```

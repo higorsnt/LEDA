@@ -16,41 +16,42 @@ public class CountingSort extends AbstractSorting<Integer> {
 	@Override
 	public void sort(Integer[] array, int leftIndex, int rightIndex) {
 		if (validation(array, leftIndex, rightIndex)){
-			// creating a copy of the array, whose given interval will be sorted
-			Integer[] copy = Arrays.copyOfRange(array, leftIndex, rightIndex + 1);
+			Integer max = array[leftIndex];
+			Integer min = array[leftIndex];
 
-			// taking the largest element of the array copy
-			Integer max = Collections.max(Arrays.asList(copy));
+			for (int i = leftIndex; i <= rightIndex; i++) {
+				if (array[i].compareTo(max) > 0) {
+					max = array[i];
+				}
+
+				if (array[i].compareTo(min) < 0) {
+					min = array[i];
+				}
+			}
 
 			// creating and initializing the occurrences array
 			Integer[] occurrences = new Integer[max + 1];
 			Arrays.fill(occurrences, 0);
 
-			countOcurrences(copy, occurrences);
-			cumulativeSum(occurrences);
+			for (int i = leftIndex; i <= rightIndex; i++) {
+				occurrences[array[i]]++;
+			}
 
-			Integer[] result = new Integer[array.length];
+			for (int i = 0; i < occurrences.length - 1; i++) {
+				occurrences[i + 1] += occurrences[i];
+			}
+
+			Integer[] result = new Integer[rightIndex - leftIndex + 1];
+
 			for (int i = rightIndex; i >= leftIndex; i--) {
 				Integer element = array[i];
 
 				result[--occurrences[element]] = element;
 			}
 
-			for (int i = 0; i < result.length; i++) {
-				array[i] = result[i];
+			for (int i = leftIndex; i <= rightIndex; i++) {
+				array[i] = result[i - leftIndex];
 			}
-		}
-	}
-
-	private void countOcurrences(Integer[] array, Integer[] occurrences){
-		for (int i = 0; i < array.length; i++) {
-				occurrences[array[i]]++;
-		}
-	}
-
-	private void cumulativeSum (Integer[] occurrences){
-		for (int i = 0; i < occurrences.length - 1; i++) {
-			occurrences[i + 1] += occurrences[i];
 		}
 	}
 
