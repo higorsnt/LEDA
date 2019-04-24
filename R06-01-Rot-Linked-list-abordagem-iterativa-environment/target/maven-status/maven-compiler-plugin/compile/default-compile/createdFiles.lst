@@ -4,8 +4,8 @@ adt/stack/StackOverflowException.class
 adt/linkedList/DoubleLinkedListImpl.class
 adt/stack/StackUnderflowException.class
 adt/linkedList/DoubleLinkedListNode.class
-adt/linkedList/SingleLinkedListNode.class
 adt/linkedList/SingleLinkedListImpl.class
+adt/linkedList/SingleLinkedListNode.class
 adt/linkedList/LinkedList.class
 adt/queue/QueueDoubleLinkedListImpl.class
 adt/stack/StackDoubleLinkedListImpl.class

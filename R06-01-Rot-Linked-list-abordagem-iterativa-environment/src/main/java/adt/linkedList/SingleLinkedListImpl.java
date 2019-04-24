@@ -53,21 +53,20 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 	@Override
 	public void insert(T element) {
 		SingleLinkedListNode node = this.head;
+		if (element != null) {
+			if (this.head.isNIL()) {
+				SingleLinkedListNode newHead = new SingleLinkedListNode();
+				newHead.setData(element);
+				newHead.setNext(new SingleLinkedListNode());
+				this.setHead(newHead);
+			} else {
+				while (!node.isNIL()) {
+					node = node.next;
+				}
 
-		if (this.head.isNIL()) {
-			SingleLinkedListNode newHead = new SingleLinkedListNode();
-			newHead.setData(element);
-			newHead.setNext(new SingleLinkedListNode());
-			this.setHead(newHead);
-		} else {
-			while (!node.isNIL()) {
-				node = node.next;
+				node.setData(element);
+				node.setNext(new SingleLinkedListNode());
 			}
-
-			SingleLinkedListNode newNode = new SingleLinkedListNode();
-			node.setData(element);
-			node.setNext(new SingleLinkedListNode());
-			//node.next = newNode;
 		}
 	}
 
