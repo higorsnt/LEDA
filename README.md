@@ -16,7 +16,7 @@ Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
 * [Three Way Quick Sort](/R02_RecursiveSorting#-3-way-quicksort)
 
 ### Ordenação Linear
-* Couting Sort
+* [Couting Sort](/R03_LinearSorting#-couting-sort)
 
 
 ### Comparação dos Algoritmos de Ordenação
@@ -32,6 +32,12 @@ Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
 |   Radix Sort   | O(nd+ kd) | O(nd + kd) |
 |   Bucket Sort  |  O(m + n) |   O(m + n) |
 
+
+## Estatísticas de Ordem
+* [Estatística de Ordem](/R04_SelectionAndBinarySearch#-estatistica-de-ordem-utilizando-selection)
+
+## Ceil e Floor Utilizando Busca Binária
+* [Ceil e Flor](/R04_SelectionAndBinarySearch#-busca-binaria)
 
 <p align="center">
 <img src="http://alumni.computacao.ufcg.edu.br/static/logica/images/logo.png"/>
