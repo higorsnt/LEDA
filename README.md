@@ -34,10 +34,10 @@ Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
 
 
 ## Estatísticas de Ordem
-* [Estatística de Ordem](/R04_SelectionAndBinarySearch#-estatistica-de-ordem-utilizando-selection)
+* [Estatística de Ordem](/R04_SelectionAndBinarySearch#estatística-de-ordem-utilizando-selection)
 
 ## Ceil e Floor Utilizando Busca Binária
-* [Ceil e Flor](/R04_SelectionAndBinarySearch#-busca-binaria)
+* [Ceil e Flor](/R04_SelectionAndBinarySearch#busca-binária)
 
 <p align="center">
 <img src="http://alumni.computacao.ufcg.edu.br/static/logica/images/logo.png"/>
