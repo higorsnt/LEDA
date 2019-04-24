@@ -9,10 +9,10 @@ public class QueueDoubleLinkedListImpl<T> implements Queue<T> {
 	protected int size;
 
 	public QueueDoubleLinkedListImpl(int size) {
-		if (size >= 0) {
-			this.size = size;
-			this.list = new DoubleLinkedListImpl<T>();
-		}
+		if (size < 0) size = 0;
+
+		this.size = size;
+		this.list = new DoubleLinkedListImpl<T>();
 	}
 
 	@Override
@@ -21,7 +21,7 @@ public class QueueDoubleLinkedListImpl<T> implements Queue<T> {
 		if (this.isFull()) throw new QueueOverflowException();
 
 		if (element != null) {
-			list.insert(element);
+			this.list.insert(element);
 		}
 	}
 

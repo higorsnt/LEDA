@@ -20,12 +20,12 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 	public int size() {
 		int length = 0;
 
-		if (this.head.data != null) {
+		if (this.head.getData() != null) {
 			SingleLinkedListNode node = this.head;
 
-			while (node.data != null) {
+			while (node.getData() != null) {
 				length++;
-				node = node.next;
+				node = node.getNext();
 			}
 		}
 		return length;
@@ -38,12 +38,12 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 		if (element != null){
 			SingleLinkedListNode node = this.getHead();
 
-			while (node.data != null) {
-				if (node.data.equals(element)) {
-					result = (T) node.data;
+			while (!node.isNIL()) {
+				if (node.getData().equals(element)) {
+					result = (T) node.getData();
 					break;
 				}
-				node = node.next;
+				node = node.getNext();
 			}
 		}
 
@@ -61,7 +61,7 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 				this.setHead(newHead);
 			} else {
 				while (!node.isNIL()) {
-					node = node.next;
+					node = node.getNext();
 				}
 
 				node.setData(element);
@@ -73,17 +73,20 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 	@Override
 	public void remove(T element) {
 		if (element != null) {
-			if (this.head.data.equals(element)) {
-				this.head = this.head.next;
+			if (this.getHead().getData().equals(element)) {
+				this.head = this.head.getNext();
 			} else {
+
 				SingleLinkedListNode nextNode = this.head;
 				SingleLinkedListNode previousNode = this.head;
-				while (nextNode != null && !nextNode.data.equals(element)) {
+
+				while (!nextNode.isNIL() && !nextNode.getData().equals(element)) {
 					previousNode = nextNode;
-					nextNode = nextNode.next;
+					nextNode = nextNode.getNext();
 				}
-				if (nextNode != null) {
-					previousNode.next = nextNode.next;
+
+				if (!nextNode.isNIL()) {
+					previousNode.setNext(nextNode.getNext());
 				}
 			}
 		}
@@ -94,9 +97,9 @@ public class SingleLinkedListImpl<T> implements LinkedList<T> {
 		List<T> array = new ArrayList<>();
 		SingleLinkedListNode node = this.head;
 
-		while (node.data != null) {
-			array.add((T) node.data);
-			node = node.next;
+		while (!node.isNIL()) {
+			array.add((T) node.getData());
+			node = node.getNext();
 		}
 
 		return (T[]) array.toArray();

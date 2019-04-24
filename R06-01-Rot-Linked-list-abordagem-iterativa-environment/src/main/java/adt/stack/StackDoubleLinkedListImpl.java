@@ -9,10 +9,10 @@ public class StackDoubleLinkedListImpl<T> implements Stack<T> {
 	protected int size;
 
 	public StackDoubleLinkedListImpl(int size) {
-		if (size >= 0) {
-			this.size = size;
-			this.top = new DoubleLinkedListImpl<T>();
-		}
+		if (size < 0) size = 0;
+
+		this.size = size;
+		this.top = new DoubleLinkedListImpl<T>();
 	}
 
 	@Override
