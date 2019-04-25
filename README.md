@@ -19,6 +19,13 @@ Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
 * [Couting Sort](/R03_LinearSorting#-couting-sort)
 
 
+## Estatísticas de Ordem
+* [Estatística de Ordem](/R04_SelectionAndBinarySearch#estatística-de-ordem-utilizando-selection)
+
+## Ceil e Floor Utilizando Busca Binária
+* [Ceil e Floor](/R04_SelectionAndBinarySearch#busca-binária)
+
+
 ### Comparação dos Algoritmos de Ordenação
 
 |   Algoritmo    | Pior Caso | Caso Médio |
@@ -33,11 +40,17 @@ Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
 |   Bucket Sort  |  O(m + n) |   O(m + n) |
 
 
-## Estatísticas de Ordem
-* [Estatística de Ordem](/R04_SelectionAndBinarySearch#estatística-de-ordem-utilizando-selection)
+## Estruturas de Dados
 
-## Ceil e Floor Utilizando Busca Binária
-* [Ceil e Flor](/R04_SelectionAndBinarySearch#busca-binária)
+* Pilha
+* Fila
+* Linked List (Iterativa)
+* Doubly Linked List (Iterativa)
+* Pilha e Fila com Doubly Linked List
+* Linked List (Recursiva)
+* Doubly Linked List (Recursiva)
+
+
 
 <p align="center">
 <img src="http://alumni.computacao.ufcg.edu.br/static/logica/images/logo.png"/>

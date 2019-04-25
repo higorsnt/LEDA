@@ -27,7 +27,7 @@ public class OccurrencesCounterImpl<T extends Comparable<T>> {
 	}
 
 	private int occurencesCounter(T[] array, T elem, int leftIndex, int rightIndex, int occurrences){
-		int middle = (leftIndex + rightIndex) / 2;
+		/*int middle = (leftIndex + rightIndex) / 2;
 
 		if (leftIndex <= rightIndex && array.length > 0) {
 			if (array[middle].compareTo(elem) == 0) {
@@ -40,7 +40,42 @@ public class OccurrencesCounterImpl<T extends Comparable<T>> {
 				occurrences = this.occurencesCounter(array, elem, leftIndex, middle - 1, occurrences);
 			}
 		}
-		return occurrences;
+		return occurrences;*/
+		int lastOccurrence = upperBound(array, elem, leftIndex, rightIndex);
+		int firstOccurrence = lowerBound(array, elem, leftIndex, rightIndex);
+		return  lastOccurrence - firstOccurrence;
+	}
+
+	public int upperBound(T[] array, T x, int leftIndex, int rightIndex) {
+		int upper = leftIndex;
+
+		while (upper < rightIndex) {
+			int mid = (upper + rightIndex) / 2;
+
+			if (array[mid].compareTo(x) <= 0) {
+				upper = mid + 1;
+			} else {
+				rightIndex = mid;
+			}
+		}
+
+		return upper;
+	}
+
+	public int lowerBound(T[] array, T x, int leftIndex, int rightIndex) {
+		int lower = leftIndex;
+
+		while (lower <= rightIndex) {
+			int mid = (lower + rightIndex) / 2;
+
+			if (array[mid].compareTo(x) >= 0) {
+				rightIndex = mid;
+			} else {
+				lower = mid + 1;
+			}
+		}
+
+		return lower;
 	}
 
 }
