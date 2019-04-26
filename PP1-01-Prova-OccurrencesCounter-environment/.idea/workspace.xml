@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="923329c3-1808-45bd-8973-cb05278903ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/problems/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/problems/OccurrencesCounterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/OccurrencesCounterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R04_SelectionAndBinarySearch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../R04_SelectionAndBinarySearch/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/linkedList/DoubleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/linkedList/DoubleLinkedListImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/linkedList/DoubleLinkedListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/linkedList/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/linkedList/SingleLinkedListImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/linkedList/SingleLinkedListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/queue/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/queue/QueueDoubleLinkedListImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/queue/QueueOverflowException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/queue/QueueUnderflowException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/stack/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/stack/StackDoubleLinkedListImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/stack/StackOverflowException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R06-01-Rot-Linked-list-abordagem-iterativa-environment/target/classes/adt/stack/StackUnderflowException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/problems/OccurrencesCounterImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/problems/OccurrencesCounterImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/problems/OccurrencesCounterImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+            <state relative-caret-position="179">
+              <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
               <folding>
                 <element signature="e#876#877#0" expanded="true" />
                 <element signature="e#949#950#0" expanded="true" />
@@ -61,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/problems/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -119,7 +98,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,7 +136,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -166,7 +145,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554995299258" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../R07-01-Rot-Linked-list-abordagem-recursiva-environment" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -211,24 +190,23 @@
       <option name="presentableId" value="Default" />
       <updated>1554991234460</updated>
       <workItem from="1556155501517" duration="3497000" />
+      <workItem from="1556229473604" duration="175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3497000" />
+    <option name="totallyTimeSpent" value="3672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="70" y="27" width="1296" height="741" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289256" />
@@ -241,8 +219,8 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289256" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3289256" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24958494" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -251,6 +229,8 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32982844" />
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,21 +263,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/problems/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/problems/OccurrencesCounterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+        <state relative-caret-position="179">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
           <folding>
             <element signature="e#876#877#0" expanded="true" />
             <element signature="e#949#950#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/problems/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>

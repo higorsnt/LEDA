@@ -24,9 +24,9 @@ public class StudentDoubleLinkedListTest extends StudentLinkedListTest {
 
 	private void getImplementations() {
 		// TODO O aluno deve ajustar aqui para instanciar sua implementação
-		lista1 = null;
-		lista2 = null;
-		lista3 = null;
+		lista1 = new RecursiveDoubleLinkedListImpl<>();
+		lista2 = new RecursiveDoubleLinkedListImpl<>();
+		lista3 = new RecursiveDoubleLinkedListImpl<>();
 	}
 
 	// Métodos de DoubleLinkedList

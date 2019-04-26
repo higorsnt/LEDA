@@ -1,7 +1,5 @@
 package adt.linkedList;
 
-import javax.swing.text.AbstractDocument;
-
 public class RecursiveDoubleLinkedListImpl<T> extends
 		RecursiveSingleLinkedListImpl<T> implements DoubleLinkedList<T> {
 
@@ -15,7 +13,7 @@ public class RecursiveDoubleLinkedListImpl<T> extends
 	public void insert(T element) {
 		if (element != null) {
 			if (!this.isEmpty()) {
-				this.next.insert(element);
+				this.getNext().insert(element);
 			} else {
 				this.setData(element);
 				this.setNext(new RecursiveDoubleLinkedListImpl<>());
@@ -27,30 +25,73 @@ public class RecursiveDoubleLinkedListImpl<T> extends
 	@Override
 	public void insertFirst(T element) {
 		if (element != null) {
-			RecursiveDoubleLinkedListImpl<T> node = this;
+			if (this.isEmpty()) {
+				this.setData(element);
+				this.setNext(new RecursiveDoubleLinkedListImpl<>());
+				setPrevious(new RecursiveDoubleLinkedListImpl<>());
+			} else {
+				RecursiveDoubleLinkedListImpl<T> newNode = new RecursiveDoubleLinkedListImpl<>();
 
-			this.setData(element);
-			this.setPrevious(new RecursiveDoubleLinkedListImpl<>());
-			this.setNext(node);
-			node.setPrevious(this);
+				newNode.setData(this.getData());
+				newNode.setNext(this.getNext());
+
+				this.setData(element);
+				this.setNext(newNode);
+
+				newNode.setPrevious(this);
+				((RecursiveDoubleLinkedListImpl<T>) newNode.getNext()).setPrevious(newNode);
+			}
 		}
 	}
 
 	@Override
 	public void remove(T element) {
-		super.remove(element);
+		if (element != null) {
+			if (this.getData().equals(element)) {
+				if (this.getNext().isEmpty() && this.getPrevious().isEmpty()) {
+					this.setData(null);
+					this.setPrevious(null);
+					this.setNext(null);
+				} else {
+					this.setData(this.getNext().getData());
+					this.setNext(this.getNext().getNext());
+
+					if (this.getNext() != null) {
+						((RecursiveDoubleLinkedListImpl<T>) this.getNext()).setPrevious(this);
+					}
+				}
+			} else {
+				this.getNext().remove(element);
+			}
+		}
 	}
 
 	@Override
 	public void removeFirst() {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if (!this.isEmpty()) {
+			if (this.getNext().isEmpty() && this.getPrevious().isEmpty()) {
+				this.setData(null);
+				this.setPrevious(null);
+				this.setNext(null);
+			} else {
+				this.setData(this.getNext().getData());
+				this.setNext(this.getNext().getNext());
+				((RecursiveDoubleLinkedListImpl<T>) this.getNext()).setPrevious(this);
+			}
+		}
 	}
 
 	@Override
 	public void removeLast() {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if (!this.isEmpty()) {
+			if (this.getNext().isEmpty()) {
+				this.setData(this.getPrevious().getData());
+				this.setPrevious(this.getPrevious().getPrevious());
+				this.getPrevious().setNext(this);
+			} else {
+				((RecursiveDoubleLinkedListImpl<T>) this.getNext()).removeLast();
+			}
+		}
 	}
 
 	public RecursiveDoubleLinkedListImpl<T> getPrevious() {

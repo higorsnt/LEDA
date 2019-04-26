@@ -65,7 +65,7 @@ public class OccurrencesCounterImpl<T extends Comparable<T>> {
 	public int lowerBound(T[] array, T x, int leftIndex, int rightIndex) {
 		int lower = leftIndex;
 
-		while (lower <= rightIndex) {
+		while (lower < rightIndex) {
 			int mid = (lower + rightIndex) / 2;
 
 			if (array[mid].compareTo(x) >= 0) {
