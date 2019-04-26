@@ -1,7 +1,7 @@
 package adt.stack;
 
 /**
- * The interface of a generic stack. The queue is able to store any kind of
+ * The interface of a generic stack. The stack is able to store any kind of
  * data.
  *
  */

@@ -46,12 +46,11 @@ public class RecursiveDoubleLinkedListImpl<T> extends
 
 	@Override
 	public void remove(T element) {
-		if (element != null) {
+		if (element != null && !this.isEmpty()) {
+
 			if (this.getData().equals(element)) {
-				if (this.getNext().isEmpty() && this.getPrevious().isEmpty()) {
-					this.setData(null);
-					this.setPrevious(null);
-					this.setNext(null);
+				if (this.getPrevious() == null && this.getNext().isEmpty()) {
+					this.removeFirst();
 				} else {
 					this.setData(this.getNext().getData());
 					this.setNext(this.getNext().getNext());
@@ -69,7 +68,7 @@ public class RecursiveDoubleLinkedListImpl<T> extends
 	@Override
 	public void removeFirst() {
 		if (!this.isEmpty()) {
-			if (this.getNext().isEmpty() && this.getPrevious().isEmpty()) {
+			if (this.getPrevious() == null && this.getNext().isEmpty()) {
 				this.setData(null);
 				this.setPrevious(null);
 				this.setNext(null);
@@ -85,9 +84,8 @@ public class RecursiveDoubleLinkedListImpl<T> extends
 	public void removeLast() {
 		if (!this.isEmpty()) {
 			if (this.getNext().isEmpty()) {
-				this.setData(this.getPrevious().getData());
-				this.setPrevious(this.getPrevious().getPrevious());
-				this.getPrevious().setNext(this);
+				this.setData(null);
+				this.setNext(null);
 			} else {
 				((RecursiveDoubleLinkedListImpl<T>) this.getNext()).removeLast();
 			}

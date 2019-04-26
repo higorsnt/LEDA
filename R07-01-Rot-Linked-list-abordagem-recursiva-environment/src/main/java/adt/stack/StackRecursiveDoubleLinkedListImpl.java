@@ -38,7 +38,13 @@ public class StackRecursiveDoubleLinkedListImpl<T> implements Stack<T> {
 	public T top() {
 		T[] array = this.top.toArray();
 
-		return array[array.length - 1];
+		T answer = null;
+
+		if (array.length > 0) {
+			answer = array[array.length - 1];
+		}
+
+		return answer;
 	}
 
 	@Override
