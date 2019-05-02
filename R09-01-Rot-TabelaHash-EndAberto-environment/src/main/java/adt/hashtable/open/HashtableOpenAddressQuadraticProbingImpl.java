@@ -14,6 +14,10 @@ public class HashtableOpenAddressQuadraticProbingImpl<T extends Storable>
         this.initiateInternalTable(size);
     }
 
+    private int getHash(T element, int probe) {
+        return Math.abs(((HashFunctionOpenAddress) this.hashFunction).hash(element, probe));
+    }
+
     @Override
     public void insert(T element) {
         if (this.isFull()) throw new HashtableOverflowException();
@@ -37,10 +41,6 @@ public class HashtableOpenAddressQuadraticProbingImpl<T extends Storable>
         }
     }
 
-    private int getHash(T element, int probe) {
-        return Math.abs(((HashFunctionOpenAddress) this.hashFunction).hash(element, probe));
-    }
-
     @Override
     public void remove(T element) {
         if (element != null && !(this.isEmpty())) {
@@ -51,7 +51,7 @@ public class HashtableOpenAddressQuadraticProbingImpl<T extends Storable>
             while (!found && i < this.table.length) {
                 hash = this.getHash(element, i++);
 
-                if (this.table[hash] == null){
+                if (this.table[hash] == null) {
                     found = true;
                 } else if (this.table[hash].equals(element)) {
                     this.table[hash] = this.deletedElement;
@@ -88,7 +88,25 @@ public class HashtableOpenAddressQuadraticProbingImpl<T extends Storable>
 
     @Override
     public int indexOf(T element) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Not implemented yet!");
+        int index = -1;
+
+        if (element != null && !(this.isEmpty())) {
+            int hash;
+            boolean found = false;
+            int i = 0;
+
+            while (!found && i < this.table.length) {
+                hash = this.getHash(element, i++);
+
+                if (this.table[hash] == null) {
+                    found = true;
+                } else if (this.table[hash].equals(element)) {
+                    index = hash;
+                    found = true;
+                }
+            }
+        }
+
+        return index;
     }
 }
