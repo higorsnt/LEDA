@@ -15,14 +15,15 @@ public class HashtableOpenAddressQuadraticProbingImpl<T extends Storable>
     }
 
     private int getHash(T element, int probe) {
-        return Math.abs(((HashFunctionOpenAddress) this.hashFunction).hash(element, probe));
+        return Math.abs(((HashFunctionOpenAddress<T>) super.hashFunction).hash(element, probe));
     }
 
     @Override
     public void insert(T element) {
-        if (this.isFull()) throw new HashtableOverflowException();
+        if (element != null && this.search(element) == null) {
 
-        if (element != null) {
+            if (super.isFull()) throw new HashtableOverflowException();
+
             int i = 0;
             boolean inserted = false;
             int hash;
@@ -30,12 +31,13 @@ public class HashtableOpenAddressQuadraticProbingImpl<T extends Storable>
             while (!inserted) {
                 hash = this.getHash(element, i++);
 
-                if (this.table[hash] == null || this.table[hash].equals(this.deletedElement)) {
-                    this.table[hash] = element;
+                if (super.table[hash] == null
+                        || super.table[hash].equals(super.deletedElement)) {
+                    super.table[hash] = element;
                     inserted = true;
-                    this.elements++;
+                    super.elements++;
                 } else {
-                    this.COLLISIONS++;
+                    super.COLLISIONS++;
                 }
             }
         }
@@ -43,21 +45,24 @@ public class HashtableOpenAddressQuadraticProbingImpl<T extends Storable>
 
     @Override
     public void remove(T element) {
-        if (element != null && !(this.isEmpty())) {
+        if (element != null && !(super.isEmpty())) {
             int hash;
             boolean found = false;
             int i = 0;
 
-            while (!found && i < this.table.length) {
-                hash = this.getHash(element, i++);
+            while (!found && i < super.table.length) {
+                hash = this.getHash(element, i);
 
-                if (this.table[hash] == null) {
+                if (super.table[hash] == null) {
                     found = true;
-                } else if (this.table[hash].equals(element)) {
-                    this.table[hash] = this.deletedElement;
+                } else if (super.table[hash].equals(element)) {
+                    super.table[hash] = super.deletedElement;
                     found = true;
-                    this.elements--;
+                    super.elements--;
+                    super.COLLISIONS -= i;
                 }
+
+                i++;
             }
         }
     }
@@ -66,20 +71,11 @@ public class HashtableOpenAddressQuadraticProbingImpl<T extends Storable>
     public T search(T element) {
         T result = null;
 
-        if (element != null && !(this.isEmpty())) {
-            int hash;
-            boolean found = false;
-            int i = 0;
+        if (element != null && !(super.isEmpty())) {
+            int hash = this.indexOf(element);
 
-            while (!found && i < this.table.length) {
-                hash = this.getHash(element, i++);
-
-                if (this.table[hash] == null) {
-                    found = true;
-                } else if (this.table[hash].equals(element)) {
-                    result = (T) this.table[hash];
-                    found = true;
-                }
+            if (hash != -1) {
+                result = (T) super.table[hash];
             }
         }
 
@@ -90,17 +86,18 @@ public class HashtableOpenAddressQuadraticProbingImpl<T extends Storable>
     public int indexOf(T element) {
         int index = -1;
 
-        if (element != null && !(this.isEmpty())) {
+        if (element != null && !(super.isEmpty())) {
             int hash;
             boolean found = false;
             int i = 0;
 
-            while (!found && i < this.table.length) {
+            while (!found && i < super.table.length) {
                 hash = this.getHash(element, i++);
 
-                if (this.table[hash] == null) {
+                if (super.table[hash] == null
+                        || super.table[hash].equals(super.deletedElement)) {
                     found = true;
-                } else if (this.table[hash].equals(element)) {
+                } else if (super.table[hash].equals(element)) {
                     index = hash;
                     found = true;
                 }
@@ -109,4 +106,5 @@ public class HashtableOpenAddressQuadraticProbingImpl<T extends Storable>
 
         return index;
     }
+
 }
