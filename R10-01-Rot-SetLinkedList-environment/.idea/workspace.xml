@@ -2,28 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="528fc447-30b6-43b5-b960-1d945b028962" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/AbstractHashtable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/Hashtable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/hashfunction/HashFunction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/hashfunction/HashFunctionClosedAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/hashfunction/HashFunctionClosedAddressMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/hashfunction/HashFunctionDivisionMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/hashfunction/HashFunctionFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/hashfunction/HashFunctionFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/hashfunction/HashFunctionLinearProbing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/hashfunction/HashFunctionMultiplicationMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/hashfunction/HashFunctionOpenAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/hashfunction/HashFunctionOpenAddressMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/hashfunction/HashFunctionQuadraticProbing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/open/AbstractHashtableOpenAddress.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/open/DELETED.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/open/HashtableElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/open/HashtableOpenAddressLinearProbingImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/open/HashtableOpenAddressQuadraticProbingImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/open/HashtableOverflowException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/adt/hashtable/open/Storable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R09-01-Rot-TabelaHash-EndAberto-environment/target/classes/util/Util.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/linkedList/SingleLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/linkedList/SingleLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adt/linkedList/set/SetLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/linkedList/set/SetLinkedListImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/linkedList/SingleLinkedListImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/linkedList/SingleLinkedListImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adt/linkedList/set/SetLinkedListImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/linkedList/set/SetLinkedListImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TST/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TST/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,49 +18,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-228464039">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="4" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="4" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="595" />
-          <entry key="xml" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="595" />
-          <entry key="XML" value="12" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
+            <state relative-caret-position="1235">
               <caret line="65" column="46" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
             </state>
           </provider>
@@ -83,11 +36,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/SingleLinkedListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="26" column="22" selection-start-line="26" selection-end-line="27" />
+            <state relative-caret-position="120">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
                 <element signature="e#452#453#0" expanded="true" />
                 <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#1089#1090#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,17 +54,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/SingleLinkedListImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/set/SetLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+            <state relative-caret-position="494">
+              <caret line="74" column="48" selection-start-line="74" selection-start-column="48" selection-end-line="74" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,11 +70,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/set/SetLinkedListImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="1425">
+              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/set/SetLinkedListImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -132,8 +97,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/adt/linkedList/SingleLinkedListImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adt/linkedList/SetLinkedListImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/adt/linkedList/set/SetLinkedListImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adt/linkedList/SingleLinkedListImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adt/linkedList/set/SetLinkedListImplTest.java" />
       </list>
     </option>
   </component>
@@ -206,12 +173,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557171156944" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -227,6 +196,45 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.SetLinkedListImplTest.testRemoveDupl">
+    <configuration name="SetLinkedListImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adt.linkedList.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adt.linkedList.set" />
+      <option name="MAIN_CLASS_NAME" value="adt.linkedList.set.SetLinkedListImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetLinkedListImplTest.testRemoveDupl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="adt.linkedList.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="adt.linkedList.set" />
+      <option name="MAIN_CLASS_NAME" value="adt.linkedList.set.SetLinkedListImplTest" />
+      <option name="METHOD_NAME" value="testRemoveDupl" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SetLinkedListImplTest.testRemoveDupl" />
+        <item itemvalue="JUnit.SetLinkedListImplTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -237,30 +245,71 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557169699912</updated>
+      <workItem from="1557179281336" duration="12685000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SetLinkedListImplTest_testRemoveDupl - 2019.05.06 at 23h 17m 40s.xml">
+      <configuration name="SetLinkedListImplTest.testRemoveDupl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SetLinkedListImplTest_testRemoveDupl - 2019.05.06 at 23h 18m 21s.xml">
+      <configuration name="SetLinkedListImplTest.testRemoveDupl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SetLinkedListImplTest_testRemoveDupl - 2019.05.06 at 23h 19m 47s.xml">
+      <configuration name="SetLinkedListImplTest.testRemoveDupl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SetLinkedListImplTest_testRemoveDupl - 2019.05.06 at 23h 20m 05s.xml">
+      <configuration name="SetLinkedListImplTest.testRemoveDupl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SetLinkedListImplTest_testRemoveDupl - 2019.05.06 at 23h 20m 17s.xml">
+      <configuration name="SetLinkedListImplTest.testRemoveDupl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SetLinkedListImplTest_testRemoveDupl - 2019.05.06 at 23h 20m 31s.xml">
+      <configuration name="SetLinkedListImplTest.testRemoveDupl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SetLinkedListImplTest_testRemoveDupl - 2019.05.06 at 23h 21m 26s.xml">
+      <configuration name="SetLinkedListImplTest.testRemoveDupl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SetLinkedListImplTest_testRemoveDupl - 2019.05.06 at 23h 25m 50s.xml">
+      <configuration name="SetLinkedListImplTest.testRemoveDupl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SetLinkedListImplTest_testRemoveDupl - 2019.05.06 at 23h 26m 35s.xml">
+      <configuration name="SetLinkedListImplTest.testRemoveDupl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SetLinkedListImplTest_testRemoveDupl - 2019.05.06 at 23h 26m 57s.xml">
+      <configuration name="SetLinkedListImplTest.testRemoveDupl" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12685000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.255119" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25979218" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24940048" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Messages" weight="0.32952693" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32952693" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44045678" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32972974" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32789558" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -270,47 +319,105 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32982844" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25979218" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32952693" />
+      <window_info anchor="bottom" id="Database Changes" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.32952693" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3284553" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32982844" />
+    </layout-to-restore>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
+        <state relative-caret-position="1235">
           <caret line="65" column="46" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/set/SetLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        <state relative-caret-position="817">
+          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/SingleLinkedListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="26" column="22" selection-start-line="26" selection-end-line="27" />
+        <state relative-caret-position="120">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
             <element signature="e#452#453#0" expanded="true" />
             <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/SingleLinkedListImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="494">
+          <caret line="74" column="48" selection-start-line="74" selection-start-column="48" selection-end-line="74" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/set/SetLinkedListImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/linkedList/set/SetLinkedListImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="1425">
+          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

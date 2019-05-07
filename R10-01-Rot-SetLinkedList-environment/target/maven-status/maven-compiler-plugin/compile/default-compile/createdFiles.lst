@@ -1,5 +1,5 @@
-util/Util.class
 adt/linkedList/LinkedList.class
+util/Util.class
 adt/linkedList/set/SetLinkedListImpl.class
 adt/linkedList/set/SetLinkedList.class
 adt/linkedList/SingleLinkedListImpl.class

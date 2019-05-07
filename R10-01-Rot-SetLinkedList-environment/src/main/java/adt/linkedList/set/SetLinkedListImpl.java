@@ -3,12 +3,21 @@ package adt.linkedList.set;
 import adt.linkedList.SingleLinkedListImpl;
 import adt.linkedList.SingleLinkedListNode;
 
+
 public class SetLinkedListImpl<T> extends SingleLinkedListImpl<T> implements SetLinkedList<T> {
 
 	@Override
 	public void removeDuplicates() {
-		//TODO Implement your code here
-		throw new UnsupportedOperationException("Not implemented yet!");
+		T[] array = super.toArray();
+		SingleLinkedListImpl<T> newList = new SingleLinkedListImpl<>();
+
+		for (int i = 0; i < array.length; i++) {
+			if (newList.search(array[i]) == null) {
+				newList.insert(array[i]);
+			}
+		}
+
+		this.setHead(newList.getHead());
 	}
 
 	@Override
