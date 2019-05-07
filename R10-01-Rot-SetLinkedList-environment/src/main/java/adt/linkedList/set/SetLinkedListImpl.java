@@ -73,6 +73,7 @@ public class SetLinkedListImpl<T> extends SingleLinkedListImpl<T> implements Set
 		auxNode.setData(((SingleLinkedListImpl<T>) otherSet).getHead().getData());
 		auxNode.setNext(((SingleLinkedListImpl<T>) otherSet).getHead().getNext());
 
+		this.removeDuplicates();
 	}
 
 }

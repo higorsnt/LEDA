@@ -64,9 +64,12 @@ public class SetLinkedListImplTest {
       SetLinkedListImpl<Integer> i3 = new SetLinkedListImpl<>();
       //i3.insert(9);
       SetLinkedListImpl<Integer> i4 = new SetLinkedListImpl<>();
-      i4.insert(8);
+      i4.insert(7);
+      i4.insert(10);
+      i4.insert(11);
+      i4.insert(3);
 
-      i4.concatenate(i3);
+      i4.concatenate(i1);
       //System.out.println(Arrays.toString(.toArray()));
       System.out.println(Arrays.toString(i4.toArray()));
 
