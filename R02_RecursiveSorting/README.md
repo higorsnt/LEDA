@@ -9,10 +9,14 @@ Por ser um algoritmo que utiliza a técnica _dividir para conquistar_ deve-se se
 2. **Conquistar**: ordenar as duas subsequências recursivamente utilizando a ordenação por intercalação;
 3. **Combinar**: intercalar as duas subsequências ordenadas para produzir a solução.
 
-<p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif"/>
-Fonte: Wikipedia
-</p>
+<figure>
+    <p align="center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif"/>
+            <figcaption style="font-size:12px" align="center">
+            Fonte: <a href="https://pt.wikipedia.org/wiki/Merge_sort">Wikipedia</a>
+            </figcaption>
+    </p>
+</figure>
 
 **Características**
 1. Boa performance, O(nlogn)
@@ -62,10 +66,14 @@ De forma semelhante ao merge sort, o quick sort particiona um vetor em dois por 
 2. **Conquistar**: os dois subvetores são ordenados por chamadas recursivas.
 3. **Combinar**: durante o processo recursivo os elementos vão sendo ordenados no próprio vetor.
 
-<p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Quicksort-example.gif"/>
-Fonte: Wikipedia
-</p>
+<figure>
+    <p align="center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Quicksort-example.gif"/>
+            <figcaption style="font-size:12px" align="center">
+            Fonte: <a href="https://en.wiktionary.org/wiki/quicksort">Wiktionary</a>
+            </figcaption>
+    </p>
+</figure>
 
 **Características**
 1. Boa perfomance, apesar de possui um pior caso O(n²), que é muito raro de ocorrer, o seu caso médio é O(logn).
@@ -131,10 +139,14 @@ def partition(lista, inicio, fim):
 3-Way QuickSort é uma otimização do QuickSort tradicional que melhora a execução do algoritmo quando temos muitas ocorrências de elementos iguais.  
 Ele executa 3 partições no array sendo uma com elementos menores que o pivô, outra com elementos iguais ao pivô e uma terceira contendo os elementos maiores que o pivô.
 
-<p align="center">
-<img src="https://algorithmsandme.com/wp-content/uploads/2018/03/3-way-quicksort.png"/>
-Fonte: Algorithms & Me
-</p>
+<figure>
+    <p align="center">
+        <img src="https://algorithmsandme.com/wp-content/uploads/2018/03/3-way-quicksort.png"/>
+            <figcaption style="font-size:12px" align="center">
+            Fonte: <a href="https://algorithmsandme.com/3-way-quicksort/">Algorithms & Me</a>
+            </figcaption>
+    </p>
+</figure>
 
 **Implementação**
 
