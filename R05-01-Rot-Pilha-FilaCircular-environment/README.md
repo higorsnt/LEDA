@@ -68,14 +68,33 @@ A diferença entre a implementação tradicional e a fila circular é a necessid
             </figcaption>
     </p>
 </figure>
+<div align="center">As operações básicas são:
 
-<center>As operações básicas são:
-
-| Operação | Complexidade |
-| :------: | :----------: |
-|  enqueue |     O(1)     |
-|  dequeue |     O(1)     |
-|  head    |     O(1)     |
-|  isEmpty |     O(1)     |
-|  isFull  |     O(1)     |
-</center>
+<table style="background-color: #59d0bc; border-color: #000605;">
+	<tbody>
+		<tr style="height: 23px;">
+			<th style="text-align: center; height: 23px;">&nbsp;Opera&ccedil;&otilde;es</th>
+			<th style="text-align: center; height: 23px;">Complexidade</th>
+		</tr>
+		<tr style="height: 23px;">
+			<td style="text-align: center; height: 23px;">&nbsp;enqueue</td>
+			<td style="text-align: center; height: 23px;">&nbsp;O(1)&nbsp;</td>
+		</tr>
+		<tr style="height: 23px;">
+			<td style="text-align: center; height: 23px;">&nbsp;dequeue</td>
+			<td style="text-align: center; height: 23px;">&nbsp;O(1)&nbsp;</td>
+		</tr>
+		<tr style="height: 23px;">
+			<td style="text-align: center; height: 23px;">&nbsp;isFull</td>
+			<td style="text-align: center; height: 23px;">&nbsp;O(1)</td>
+		</tr>
+		<tr style="height: 23px;">
+			<td style="text-align: center; height: 23px;">&nbsp;isEmpty</td>
+			<td style="text-align: center; height: 23px;">&nbsp;O(1)&nbsp;</td>
+		</tr>
+		<tr style="height: 23px;">
+			<td style="text-align: center; height: 23px;">&nbsp;head</td>
+			<td style="text-align: center; height: 23px;">&nbsp;O(1)</td>
+		</tr>
+	</tbody>
+</table>
