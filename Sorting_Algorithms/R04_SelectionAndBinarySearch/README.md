@@ -11,7 +11,7 @@ Então, para se implementar esse algoritmo uma solução é utilizar a ideia de 
 Um exemplo de execução:
 
 <p align="center">
-<img src="img/order.png"/>
+    <img src="img/order.png"/>
 </p>
 
 ## Busca Binária

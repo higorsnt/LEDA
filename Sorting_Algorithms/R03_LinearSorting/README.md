@@ -12,7 +12,7 @@ A ideia por trás desse algoritmo é contar, para cada elemento do array, quanto
 4. E por fim, ordena o array se baseando no array de ocorrências.
 
 <p align="center">
-<img src="img/CoutingSort.gif"/>
+    <img src="img/CoutingSort.gif"/>
 </p>
 
 
