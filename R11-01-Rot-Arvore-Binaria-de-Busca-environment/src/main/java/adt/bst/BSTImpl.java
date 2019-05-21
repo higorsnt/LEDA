@@ -63,6 +63,7 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
 				aux = search((BSTNode<T>) node.getRight(), element);
 			}
 		}
+
 		return aux;
 	}
 
@@ -119,22 +120,62 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
 
 	@Override
 	public BSTNode<T> sucessor(T element) {
-		BSTNode<T> result = new BSTNode<>();
+		BSTNode<T> result = search(element);
 
-		if (element != null) {
-			if (!this.root.getRight().isEmpty()) {
-				result = minimum((BSTNode<T>) this.root.getRight());
+		if (!result.isEmpty()) {
+			if (!result.getRight().isEmpty()) {
+				result = minimum((BSTNode<T>) result.getRight());
 			} else {
+				result = sucessor(result);
 			}
 		}
 
 		return result;
 	}
 
+	private BSTNode<T> sucessor(BSTNode<T> node) {
+		BSTNode<T> sucessor = null;
+
+		if (node.getParent() != null) {
+			sucessor = (BSTNode<T>) node.getParent();
+
+			if (!sucessor.isEmpty()) {
+				if (sucessor.getRight().equals(node)) {
+					sucessor = predecessor((BSTNode<T>) node.getParent());
+				}
+			}
+		}
+		return sucessor;
+	}
+
 	@Override
 	public BSTNode<T> predecessor(T element) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		BSTNode<T> result = search(element);
+
+		if (!result.isEmpty()) {
+			if (!result.getLeft().isEmpty()) {
+				result = maximum((BSTNode<T>) result.getLeft());
+			} else {
+				result = predecessor(result);
+			}
+		}
+
+		return result;
+	}
+
+	private BSTNode<T> predecessor (BSTNode<T> node) {
+		BSTNode<T> predecessor = null;
+
+		if (node.getParent() != null) {
+			predecessor = (BSTNode<T>) node.getParent();
+
+			if (!predecessor.isEmpty()) {
+				if (predecessor.getLeft().equals(node)) {
+					predecessor = predecessor((BSTNode<T>) node.getParent());
+				}
+			}
+		}
+		return predecessor;
 	}
 
 	@Override

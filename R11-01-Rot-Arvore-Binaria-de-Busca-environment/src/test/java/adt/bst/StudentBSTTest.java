@@ -83,6 +83,7 @@ public class StudentBSTTest {
 
 		assertEquals(null, tree.predecessor(-40));
 		assertEquals(new Integer(-34), tree.sucessor(-40).getData());
+		assertEquals(null, tree.sucessor(80));
 
 		assertEquals(new Integer(-40), tree.predecessor(-34).getData());
 		assertEquals(new Integer(0), tree.sucessor(-34).getData());
