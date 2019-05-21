@@ -1,6 +1,6 @@
 # ROTEIRO 05
 
-Nesse roteiro o objetivo era implementar as estruturas básicas de dados.
+Nesse roteiro o objetivo é implementar as estruturas básicas de dados.
 
 ## Pilha
 

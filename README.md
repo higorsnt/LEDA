@@ -1,4 +1,5 @@
 # ESTRUTURA DE DADOS E ALGORITMOS :game_die:
+
 Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
 
 > [Estrutura de Dados](#estrutura-de-dados)  
@@ -14,11 +15,15 @@ Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
 
 * **Listas Encadeadas**
 
-    * Linked List (Iterativa)
-    * Doubly Linked List (Iterativa)
-    * Pilha e Fila com Doubly Linked List
-    * Linked List (Recursiva)
-    * Doubly Linked List (Recursiva)
+    * [Linked List (Iterativa)](#R06_LinkedList_Iterativa#-lista-encadeada-simples)
+    * [Doubly Linked List (Iterativa)](#R06_LinkedList_Iterativa#-lista-duplamente-encadeada)
+    * [Pilha e Fila com Doubly Linked List]()
+    * [Linked List (Recursiva)](#R07_LinkedList_Recursiva#-lista-duplamente-encadeada)
+    * [Doubly Linked List (Recursiva)](#R07_LinkedList_Recursiva#-lista-duplamente-encadeada)
+
+* **Tabela Hash**
+    
+    * Endereçamento Fechado
 
 ## Algoritmos de Ordenação
 
