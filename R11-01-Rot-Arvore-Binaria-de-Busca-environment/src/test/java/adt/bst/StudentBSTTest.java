@@ -84,6 +84,7 @@ public class StudentBSTTest {
 		assertEquals(null, tree.predecessor(-40));
 		assertEquals(new Integer(-34), tree.sucessor(-40).getData());
 		assertEquals(null, tree.sucessor(80));
+        assertEquals(null, tree.predecessor(80));
 
 		assertEquals(new Integer(-40), tree.predecessor(-34).getData());
 		assertEquals(new Integer(0), tree.sucessor(-34).getData());
@@ -111,6 +112,10 @@ public class StudentBSTTest {
 	@Test
 	public void testHeight() {
 		fillTree(); // -40 -34 0 2 5 6 9 12 23 67 76 232
+
+        Integer[] postOrder = new Integer[] {-40, 0, 2, 5, -34, 12, 9, 67, 232, 76, 23, 6};
+
+        assertArrayEquals(postOrder, tree.postOrder());
 
 		Integer[] preOrder = new Integer[] { 6, -34, -40, 5, 2, 0, 23, 9, 12,
 				76, 67, 232 };
