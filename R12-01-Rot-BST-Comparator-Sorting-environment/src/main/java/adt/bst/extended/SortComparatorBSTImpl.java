@@ -3,6 +3,7 @@ package adt.bst.extended;
 import java.util.Comparator;
 
 import adt.bst.BSTImpl;
+import adt.bst.BSTNode;
 
 /**
  * Implementacao de SortComparatorBST, uma BST que usa um comparator interno em suas funcionalidades
@@ -24,14 +25,32 @@ public class SortComparatorBSTImpl<T extends Comparable<T>> extends BSTImpl<T> i
 
 	@Override
 	public T[] sort(T[] array) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if (array != null) {
+			for (int i = 0; i < array.length; i++) {
+				super.insert(array[i]);
+			}
+		}
+
+		return super.order();
 	}
 
 	@Override
 	public T[] reverseOrder() {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		T[] array = (T[]) new Comparable[super.size()];
+
+		reverseOrder(getRoot(), 0, array);
+
+		return array;
+	}
+
+	private int reverseOrder(BSTNode<T> node, int index, T[] array) {
+		if (!node.isEmpty()) {
+			index = reverseOrder((BSTNode<T>) node.getRight(), index, array);
+			array[index++] = node.getData();
+			index = reverseOrder((BSTNode<T>) node.getLeft(), index, array);
+		}
+
+		return index;
 	}
 
 	public Comparator<T> getComparator() {

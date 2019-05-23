@@ -2,11 +2,16 @@ package adt.bst;
 
 import static org.junit.Assert.*;
 
+import adt.bst.extended.SortComparatorBST;
+import adt.bst.extended.SortComparatorBSTImpl;
 import org.junit.Before;
 import org.junit.Test;
 
 import adt.bst.BSTImpl;
 import adt.bt.BTNode;
+
+import java.util.Arrays;
+import java.util.Comparator;
 
 public class StudentBSTTest {
 
@@ -151,5 +156,29 @@ public class StudentBSTTest {
 		assertEquals(new Integer(-40), tree.search(-40).getData());
 		assertEquals(new Integer(-34), tree.search(-34).getData());
 		assertEquals(NIL, tree.search(2534));
+	}
+
+	@Test
+	public void testSort() {
+		Comparator<Integer> comparator = new Comparator<Integer>(){
+
+			@Override
+			public int compare(Integer o1, Integer o2) {
+				return o1 - o2;
+			}
+
+		};
+
+		SortComparatorBST sort = new SortComparatorBSTImpl(comparator);
+
+		Integer[] a = new Integer[] {};
+
+		Integer[] b = new Integer[]{0, 1, 5, 6, 9, 12, 47, 58, 69, 84, 87, 487};
+
+		Integer[] c = new Integer[] {487, 87, 84, 69, 58, 47, 12, 9, 6, 5, 1, 0};
+
+		assertArrayEquals(b, sort.sort(a));
+		assertArrayEquals(c, sort.reverseOrder());
+
 	}
 }
