@@ -20,7 +20,7 @@ public class StudentMinHeapTest {
 		// TODO Instancie seu comparator para fazer sua estrutura funcionar como
 		// uma min heap aqui. Use instanciacao anonima da interface
 		// Comparator!!!!
-		Comparator<Integer> comparator = null;
+		Comparator<Integer> comparator = (a, b) -> a.compareTo(b);
 		heap = new HeapImpl<Integer>(comparator);
 	}
 
@@ -76,6 +76,68 @@ public class StudentMinHeapTest {
 		assertFalse(heap.isEmpty());
 
 		verifyHeap(new Integer[] { 38, 40, 79, 45, 53 });
+	}
+
+	@Test
+	public void testCustom() {
+		assertTrue(heap.isEmpty());
+		assertEquals(0, heap.size());
+
+		heap.insert(0);
+		heap.insert(10);
+		heap.insert(20);
+		heap.insert(-1);
+		heap.insert(-2);
+		heap.insert(Integer.MAX_VALUE);
+		heap.insert(Integer.MIN_VALUE);
+		heap.insert(1);
+		heap.insert(0);
+		heap.insert(0);
+		heap.insert(12);
+		heap.insert(100);
+		heap.insert(109);
+		heap.insert(101);
+
+		assertFalse(heap.isEmpty());
+		assertEquals(14, heap.size());
+		verifyHeap(new Integer[]{Integer.MIN_VALUE, -1, -2, 0, 0, 100, 20, 10, 1, 0, 12, Integer.MAX_VALUE, 109, 101});
+
+		Integer[] array = new Integer[]{Integer.MAX_VALUE, 12, 109, 0, 1, 100, 101, -1, 0, -2, 0, 10, 20, Integer.MIN_VALUE};
+		Arrays.sort(array);
+
+		assertArrayEquals(array, heap.heapsort(new Integer[]{Integer.MAX_VALUE, 12, 109, 0, 1, 100, 101, -1, 0, -2, 0, 10, 20, Integer.MIN_VALUE}));
+		assertTrue(heap.isEmpty());
+		verifyHeap(new Integer[]{});
+
+		assertArrayEquals(new Integer[]{1, 2, 3, 4}, heap.heapsort(new Integer[]{4, 2, 3, 1}));
+		assertTrue(heap.isEmpty());
+		verifyHeap(new Integer[]{});
+
+		heap.insert(0);
+		heap.insert(10);
+		heap.insert(20);
+		heap.insert(-1);
+		heap.insert(-2);
+		heap.insert(Integer.MAX_VALUE);
+		heap.insert(Integer.MIN_VALUE);
+		heap.insert(1);
+		heap.insert(0);
+		heap.insert(0);
+		heap.insert(12);
+		heap.insert(100);
+		heap.insert(109);
+		heap.insert(101);
+		heap.insert(null);
+		assertEquals(14, heap.size());
+		heap.insert(null);
+		assertEquals(14, heap.size());
+
+		Comparator<Integer> comparator = (a, b) -> b.compareTo(a);
+		((HeapImpl)heap).setComparator(comparator);
+
+		assertFalse(heap.isEmpty());
+		assertEquals(14, heap.size());
+		verifyHeap(new Integer[]{Integer.MAX_VALUE, 12, 109, 0, 1, 100, 101, -1, 0, -2, 0, 10, 20, Integer.MIN_VALUE});
 	}
 
 	@Test

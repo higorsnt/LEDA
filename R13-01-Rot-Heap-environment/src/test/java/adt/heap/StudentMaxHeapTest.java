@@ -20,18 +20,18 @@ public class StudentMaxHeapTest {
 		// TODO Instancie seu comparator para fazer sua estrutura funcionar como
 		// uma max heap aqui. Use instanciacao anonima da interface
 		// Comparator!!!!
-		Comparator<Integer> comparator = null;
+		Comparator<Integer> comparator = (a, b) -> b.compareTo(a);
 		heap = new HeapImpl<Integer>(comparator);
 	}
 
 	@Test
 	public void testBuild() {
-		heap.buildHeap(new Integer[] { 82, 6, 99, 12, 34, 64, 58, 1 });
+		heap.buildHeap(new Integer[]{82, 6, 99, 12, 34, 64, 58, 1});
 
 		assertEquals(8, heap.size());
 		assertFalse(heap.isEmpty());
 
-		verifyHeap(new Integer[] { 99, 12, 82, 6, 34, 64, 58, 1 });
+		verifyHeap(new Integer[]{99, 12, 82, 6, 34, 64, 58, 1});
 	}
 
 	@Test
@@ -50,7 +50,67 @@ public class StudentMaxHeapTest {
 		assertEquals(10, heap.size());
 		assertFalse(heap.isEmpty());
 
-		verifyHeap(new Integer[] { 14, 8, 12, 7, 8, -5, -2, 3, -10, 0 });
+		verifyHeap(new Integer[]{14, 8, 12, 7, 8, -5, -2, 3, -10, 0});
+	}
+
+	@Test
+	public void testCustom() {
+		assertTrue(heap.isEmpty());
+		assertEquals(0, heap.size());
+
+		heap.insert(0);
+		heap.insert(10);
+		heap.insert(20);
+		heap.insert(-1);
+		heap.insert(-2);
+		heap.insert(Integer.MAX_VALUE);
+		heap.insert(Integer.MIN_VALUE);
+		heap.insert(1);
+		heap.insert(0);
+		heap.insert(0);
+		heap.insert(12);
+		heap.insert(100);
+		heap.insert(109);
+		heap.insert(101);
+
+		assertFalse(heap.isEmpty());
+		assertEquals(14, heap.size());
+		verifyHeap(new Integer[]{Integer.MAX_VALUE, 12, 109, 0, 1, 100, 101, -1, 0, -2, 0, 10, 20, Integer.MIN_VALUE});
+
+		Integer[] array = new Integer[]{Integer.MAX_VALUE, 12, 109, 0, 1, 100, 101, -1, 0, -2, 0, 10, 20, Integer.MIN_VALUE};
+		Arrays.sort(array);
+
+		assertArrayEquals(array, heap.heapsort(new Integer[]{Integer.MAX_VALUE, 12, 109, 0, 1, 100, 101, -1, 0, -2, 0, 10, 20, Integer.MIN_VALUE}));
+		assertTrue(heap.isEmpty());
+		verifyHeap(new Integer[]{});
+
+		assertArrayEquals(new Integer[]{1, 2, 3, 4}, heap.heapsort(new Integer[]{4, 2, 3, 1}));
+		assertTrue(heap.isEmpty());
+		verifyHeap(new Integer[]{});
+
+		heap.insert(0);
+		heap.insert(10);
+		heap.insert(20);
+		heap.insert(-1);
+		heap.insert(-2);
+		heap.insert(Integer.MAX_VALUE);
+		heap.insert(Integer.MIN_VALUE);
+		heap.insert(1);
+		heap.insert(0);
+		heap.insert(0);
+		heap.insert(12);
+		heap.insert(100);
+		heap.insert(109);
+		heap.insert(101);
+		heap.insert(null);
+		assertEquals(14, heap.size());
+
+		Comparator<Integer> comparator = (a, b) -> a.compareTo(b);
+		((HeapImpl)heap).setComparator(comparator);
+
+		assertFalse(heap.isEmpty());
+		assertEquals(14, heap.size());
+		verifyHeap(new Integer[]{Integer.MIN_VALUE, -1, -2, 0, 0, 100, 20, 10, 1, 0, 12, Integer.MAX_VALUE, 109, 101});
 	}
 
 	@Test
@@ -75,18 +135,18 @@ public class StudentMaxHeapTest {
 		assertEquals(5, heap.size());
 		assertFalse(heap.isEmpty());
 
-		verifyHeap(new Integer[] { 22, 17, 15, 26, 30 });
+		verifyHeap(new Integer[]{22, 17, 15, 26, 30});
 	}
 
 	@Test
 	public void testSort() {
-		assertArrayEquals(new Integer[] { 5, 6, 12, 20, 34, 43, 49, 92 },
-				heap.heapsort(new Integer[] { 34, 92, 5, 12, 49, 20, 43, 6 }));
+		assertArrayEquals(new Integer[]{5, 6, 12, 20, 34, 43, 49, 92},
+				heap.heapsort(new Integer[]{34, 92, 5, 12, 49, 20, 43, 6}));
 
 		assertEquals(0, heap.size());
 		assertTrue(heap.isEmpty());
 
-		assertArrayEquals(new Integer[] {}, heap.toArray());
+		assertArrayEquals(new Integer[]{}, heap.toArray());
 	}
 
 	private void verifyHeap(Integer[] expected) {

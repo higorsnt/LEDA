@@ -7,3 +7,13 @@
   <level>FINE</level>
   <message>File 118110808-HIGOR SANTOS DE BRITO DANTAS.zip was received. It was sent by HIGOR SANTOS DE BRITO DANTAS from IP 150.165.42.164 at 23-05-2019 14*28*51</message>
 </record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-05-23T22:23:14.641-0300</date>
+  <logger>HIGOR SANTOS DE BRITO DANTAS</logger>
+  <level>FINE</level>
+  <message>File 118110808-HIGOR SANTOS DE BRITO DANTAS.zip was received. It was sent by HIGOR SANTOS DE BRITO DANTAS from IP 192.168.15.11 at 23-05-2019 22*23*14</message>
+</record>

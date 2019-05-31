@@ -24,10 +24,75 @@ public class SortComparatorBSTImpl<T extends Comparable<T>> extends BSTImpl<T> i
 	}
 
 	@Override
+	public void insert(T element) {
+		if (element != null) {
+			insert(this.root, element);
+		}
+	}
+
+	private void insert (BSTNode<T> node, T element) {
+		if (node.isEmpty()) {
+			node.setData(element);
+
+			node.setLeft(new BSTNode.Builder<T>()
+									.data(null)
+									.left(null)
+									.right(null)
+									.parent(node)
+									.build());
+
+			node.setRight(new BSTNode.Builder<T>()
+									 .data(null)
+									 .left(null)
+									 .right(null)
+									 .parent(node)
+									 .build());
+
+		} else {
+			if (this.comparator.compare(node.getData(), element) > 0) {
+				insert((BSTNode<T>) node.getLeft(), element);
+			} else if (this.comparator.compare(node.getData(), element) < 0){
+				insert((BSTNode<T>) node.getRight(), element);
+			}
+		}
+	}
+
+	@Override
+	public BSTNode<T> search(T element) {
+		BSTNode<T> result = new BSTNode<>();
+
+		if (element != null) {
+			if (!isEmpty()) {
+				result = search(this.root, element);
+			}
+		}
+
+		return result;
+	}
+
+	private BSTNode<T> search(BSTNode<T> node, T element) {
+		BSTNode<T> aux = new BSTNode<>();
+
+		if (!node.isEmpty()) {
+			if (node.getData().equals(element)) {
+				aux = node;
+			} else if (this.comparator.compare(node.getData(), element) > 0) {
+				aux = search((BSTNode<T>) node.getLeft(), element);
+			} else {
+				aux = search((BSTNode<T>) node.getRight(), element);
+			}
+		}
+
+		return aux;
+	}
+
+	@Override
 	public T[] sort(T[] array) {
+		super.root = new BSTNode<>();
+
 		if (array != null) {
 			for (int i = 0; i < array.length; i++) {
-				super.insert(array[i]);
+				this.insert(array[i]);
 			}
 		}
 
