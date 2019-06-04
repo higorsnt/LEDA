@@ -1,6 +1,5 @@
 package adt.bt;
 
-import adt.bst.BST;
 import adt.bst.BSTNode;
 
 public class Util {
@@ -25,7 +24,7 @@ public class Util {
 		}
 
 		pivot.setParent(parentNode);
-		node.setParent(node);
+		node.setParent(pivot);
 
 		node.setRight(leftPivot);
 		pivot.setLeft(node);
@@ -56,7 +55,7 @@ public class Util {
 		}
 
 		pivot.setParent(parentNode);
-		node.setParent(node);
+		node.setParent(pivot);
 
 		node.setLeft(rightPivot);
 		pivot.setRight(node);

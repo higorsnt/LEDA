@@ -11,11 +11,29 @@ public class Util {
 	 * @return
 	 */
 	public static <T extends Comparable<T>> BSTNode<T> leftRotation(BSTNode<T> node) {
-		BSTNode<T> pivot = (BSTNode<T>) node.getRight(); //Q
-		BSTNode<T> newRight = (BSTNode<T>) pivot.getLeft(); //B
-		pivot.setParent(null);//node=P
-		node.setRight(newRight);
+		BSTNode<T> pivot = (BSTNode<T>) node.getRight();
+		BSTNode<T> leftPivot = (BSTNode<T>) pivot.getLeft();
+		BSTNode<T> parentNode = (BSTNode<T>) node.getParent();
+
+		if (parentNode != null) {
+			if (parentNode.getLeft().equals(node)) {
+				parentNode.setLeft(pivot);
+			} else {
+				parentNode.setRight(pivot);
+			}
+		}
+
+		pivot.setParent(parentNode);
+		node.setParent(pivot);
+
+		node.setRight(leftPivot);
 		pivot.setLeft(node);
+
+		if (leftPivot != null) {
+			leftPivot.setParent(node);
+		}
+
+		return pivot;
 	}
 
 	/**
@@ -24,8 +42,29 @@ public class Util {
 	 * @return
 	 */
 	public static <T extends Comparable<T>> BSTNode<T> rightRotation(BSTNode<T> node) {
-		//TODO Implemente sua rotacao a esquerda aqui
-		throw new UnsupportedOperationException("Not implemented yet!");
+		BSTNode<T> pivot = (BSTNode<T>) node.getLeft();
+		BSTNode<T> rightPivot = (BSTNode<T>) pivot.getRight();
+		BSTNode<T> parentNode = (BSTNode<T>) node.getParent();
+
+		if (parentNode != null) {
+			if (parentNode.getLeft().equals(node)) {
+				parentNode.setLeft(pivot);
+			} else {
+				parentNode.setRight(pivot);
+			}
+		}
+
+		pivot.setParent(parentNode);
+		node.setParent(pivot);
+
+		node.setLeft(rightPivot);
+		pivot.setRight(node);
+
+		if (rightPivot != null) {
+			rightPivot.setParent(node);
+		}
+
+		return pivot;
 	}
 
 	public static <T extends Comparable<T>> T[] makeArrayOfComparable(int size) {

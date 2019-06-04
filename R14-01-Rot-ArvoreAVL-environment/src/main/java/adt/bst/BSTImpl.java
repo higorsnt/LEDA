@@ -24,7 +24,7 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
 		return height(this.root);
 	}
 
-	private int height (BTNode<T> node) {
+	public int height (BTNode<T> node) {
 		int height = -1;
 
 		if (!node.isEmpty()) {
@@ -129,7 +129,6 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
 
 		return min;
 	}
-
 
 	@Override
 	public BSTNode<T> sucessor(T element) {
@@ -294,7 +293,6 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
 
 		return index;
 	}
-
 
 	/**
 	 * This method is already implemented using recursion. You must understand

@@ -3,6 +3,8 @@ package adt.avltree;
 import adt.bst.BSTNode;
 import adt.bt.Util;
 
+import java.util.Arrays;
+
 public class AVLCountAndFillImpl<T extends Comparable<T>> extends
 		AVLTreeImpl<T> implements AVLCountAndFill<T> {
 
@@ -38,19 +40,38 @@ public class AVLCountAndFillImpl<T extends Comparable<T>> extends
 	@Override
 	public void fillWithoutRebalance(T[] array) {
 		if (array != null) {
-			for (T element : array) {
-				this.insert(element);
-			}
+			Arrays.sort(array);
+			auxFillWithoutRebalance(array, 0, array.length - 1);
 		}
 	}
 
-	@Override
-	public void insert(T element) {
-		if (element != null) {
-			super.insert(this.root, element);
+	private void auxFillWithoutRebalance(T[] array, int leftIndex, int rightIndex) {
+		if (leftIndex <= rightIndex) {
+			int middle = (leftIndex + rightIndex) / 2;
 
-			BSTNode<T> node = super.search(element);
-			this.rebalance(node);
+			T element = array[middle];
+			insertWithoutRebalance(element);
+
+			auxFillWithoutRebalance(array, leftIndex + 1, middle - 1);
+			auxFillWithoutRebalance(array, middle + 1, rightIndex);
+		}
+	}
+
+	private void insertWithoutRebalance(T element) {
+		auxInsertWithoutRebalance(this.root, element);
+	}
+
+	private void auxInsertWithoutRebalance(BSTNode<T> node, T element) {
+		if (node.isEmpty()) {
+			node.setData(element);
+			node.setLeft(new BSTNode.Builder<T>().data(null).left(null).right(null).parent(node).build());
+			node.setRight(new BSTNode.Builder<T>().data(null).left(null).right(null).parent(node).build());
+		} else {
+			if (node.getData().compareTo(element) > 0) {
+				auxInsertWithoutRebalance((BSTNode<T>) node.getLeft(), element);
+			} else {
+				auxInsertWithoutRebalance((BSTNode<T>) node.getRight(), element);
+			}
 		}
 	}
 
@@ -65,26 +86,37 @@ public class AVLCountAndFillImpl<T extends Comparable<T>> extends
 		}
 	}
 
-	@Override
-	protected void heavierRight(BSTNode<T> node) {
-		if (this.calculateBalance((BSTNode<T>) node.getRight()) < 0) {
-			this.RRcounter++;
-		} else {
-			this.RLcounter++;
-		}
-	}
+	private void heavierLeft(BSTNode<T> node) {
+		BSTNode<T> aux;
 
-	@Override
-	protected void heavierLeft(BSTNode<T> node) {
 		if (this.calculateBalance((BSTNode<T>) node.getLeft()) > 0) {
+			aux = Util.rightRotation(node);
 			this.LLcounter++;
 		} else {
+			Util.leftRotation((BSTNode<T>) node.getLeft());
+			aux = Util.rightRotation(node);
 			this.LRcounter++;
+		}
+
+		if (aux.getParent() == null) {
+			super.root = aux;
 		}
 	}
 
-	@Override
-	public void remove(T element) {
-		// TODO
+	private void heavierRight(BSTNode<T> node) {
+		BSTNode<T> aux;
+
+		if (this.calculateBalance((BSTNode<T>) node.getRight()) < 0) {
+			aux = Util.leftRotation(node);
+			this.RRcounter++;
+		} else {
+			Util.rightRotation((BSTNode<T>) node.getRight());
+			aux = Util.leftRotation(node);
+			this.RLcounter++;
+		}
+
+		if (aux.getParent() == null) {
+			super.root = aux;
+		}
 	}
 }
