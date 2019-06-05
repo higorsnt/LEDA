@@ -3,7 +3,7 @@ package adt.avltree;
 import adt.bst.BSTNode;
 import adt.bt.Util;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class AVLCountAndFillImpl<T extends Comparable<T>> extends
 		AVLTreeImpl<T> implements AVLCountAndFill<T> {
@@ -41,37 +41,31 @@ public class AVLCountAndFillImpl<T extends Comparable<T>> extends
 	public void fillWithoutRebalance(T[] array) {
 		if (array != null) {
 			Arrays.sort(array);
-			auxFillWithoutRebalance(array, 0, array.length - 1);
+
+			Map<Integer, List<T>> levels = new TreeMap<>();
+
+			auxFillWithoutRebalance(levels, 0, array.length - 1, 0, array);
+
+			for (List<T> list : levels.values()) {
+				list.forEach(t -> super.insert(t));
+			}
+
 		}
 	}
 
-	private void auxFillWithoutRebalance(T[] array, int leftIndex, int rightIndex) {
+	private void auxFillWithoutRebalance(Map<Integer, List<T>> map, int leftIndex,
+										 int rightIndex, int level, T[] array) {
 		if (leftIndex <= rightIndex) {
 			int middle = (leftIndex + rightIndex) / 2;
-
-			T element = array[middle];
-			insertWithoutRebalance(element);
-
-			auxFillWithoutRebalance(array, leftIndex + 1, middle - 1);
-			auxFillWithoutRebalance(array, middle + 1, rightIndex);
-		}
-	}
-
-	private void insertWithoutRebalance(T element) {
-		auxInsertWithoutRebalance(this.root, element);
-	}
-
-	private void auxInsertWithoutRebalance(BSTNode<T> node, T element) {
-		if (node.isEmpty()) {
-			node.setData(element);
-			node.setLeft(new BSTNode.Builder<T>().data(null).left(null).right(null).parent(node).build());
-			node.setRight(new BSTNode.Builder<T>().data(null).left(null).right(null).parent(node).build());
-		} else {
-			if (node.getData().compareTo(element) > 0) {
-				auxInsertWithoutRebalance((BSTNode<T>) node.getLeft(), element);
+			if (map.containsKey(level)) {
+				map.get(level).add(array[middle]);
 			} else {
-				auxInsertWithoutRebalance((BSTNode<T>) node.getRight(), element);
+				map.put(level, new ArrayList<>());
+				map.get(level).add(array[middle]);
 			}
+
+			auxFillWithoutRebalance(map, leftIndex, middle - 1, level + 1, array);
+			auxFillWithoutRebalance(map, middle + 1, rightIndex, level + 1, array);
 		}
 	}
 

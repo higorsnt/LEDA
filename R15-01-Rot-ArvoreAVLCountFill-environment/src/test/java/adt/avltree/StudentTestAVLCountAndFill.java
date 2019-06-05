@@ -58,7 +58,8 @@ public class StudentTestAVLCountAndFill {
 	@Test
 	public void testFillWithoutRebalance() {
 		tree1 = new AVLCountAndFillImpl<Integer>();
-		Integer[] keys = { 8, 4, 12, 2, 6, 10, 14, 1, 3, 5, 7, 9, 11, 13, 15 };
+		//Integer[] keys = { 8, 4, 12, 2, 6, 10, 14, 1, 3, 5, 7, 9, 11, 13, 15 };
+		Integer[] keys = {1,2,3,4,5,7,8};
 		tree1.fillWithoutRebalance(keys);
 		assertEquals(0, tree1.LLcount());
 		assertEquals(0, tree1.RRcount());
