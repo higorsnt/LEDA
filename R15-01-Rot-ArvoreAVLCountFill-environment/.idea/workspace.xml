@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99017f79-bd2d-4ef7-a320-e8fe8849bddf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/avltree/AVLCountAndFill.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/avltree/AVLCountAndFillImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/avltree/AVLTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/avltree/AVLTreeImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/bst/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/bst/BSTImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/bst/BSTNode$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/bst/BSTNode$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/bst/BSTNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/bt/BT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/bt/BTNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/bt/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,33 +15,22 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1541159969">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/avltree/AVLCountAndFill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
+            <state relative-caret-position="665">
               <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/avltree/AVLCountAndFillImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1278">
-              <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
+            <state relative-caret-position="817">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/BTNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
+            <state relative-caret-position="1026">
               <caret line="60" selection-start-line="60" selection-end-line="60" />
               <folding>
                 <element signature="e#470#471#0" expanded="true" />
@@ -79,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/adt/avltree/StudentTestAVLCountAndFill.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
@@ -91,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1116">
+            <state relative-caret-position="1178">
               <caret line="70" selection-start-line="70" selection-end-line="70" />
               <folding>
                 <element signature="e#280#281#0" expanded="true" />
@@ -175,6 +154,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="adt.avltree" />
       <option name="MAIN_CLASS_NAME" value="adt.avltree.StudentTestAVLCountAndFill" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -238,6 +218,7 @@
       <updated>1559589238017</updated>
       <workItem from="1559598406332" duration="12341000" />
       <workItem from="1559671857978" duration="10937000" />
+      <workItem from="1559945472888" duration="194000" />
     </task>
     <servers />
   </component>
@@ -274,7 +255,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23278000" />
+    <option name="totallyTimeSpent" value="23472000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -286,7 +267,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1533" height="875" extended-state="6" />
+    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25778133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -302,7 +283,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32792208" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -322,9 +303,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -406,24 +384,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/avltree/AVLCountAndFill.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
+        <state relative-caret-position="665">
           <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adt/avltree/AVLCountAndFillImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1278">
-          <caret line="72" column="24" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/BTNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
+        <state relative-caret-position="1026">
           <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="e#470#471#0" expanded="true" />
@@ -441,7 +409,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1116">
+        <state relative-caret-position="1178">
           <caret line="70" selection-start-line="70" selection-end-line="70" />
           <folding>
             <element signature="e#280#281#0" expanded="true" />
@@ -454,6 +422,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/avltree/AVLCountAndFillImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
