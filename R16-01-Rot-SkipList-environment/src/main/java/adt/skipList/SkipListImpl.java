@@ -31,6 +31,8 @@ public class SkipListImpl<T> implements SkipList<T> {
 	
 	@Override
 	public void insert(int key, T newValue, int height) {
+		if (height > this.maxHeight) throw new RuntimeException();
+
 		if (newValue != null) {
 			SkipListNode<T>[] update = new SkipListNode[this.maxHeight];
 			SkipListNode<T> node = this.root;
@@ -43,7 +45,20 @@ public class SkipListImpl<T> implements SkipList<T> {
 				update[i] = node;
 			}
 
-			node = node.getForward(0);
+			if (node.getKey() == key) {
+				node.setValue(newValue);
+			} else {
+				SkipListNode newNode = new SkipListNode(key, height, newValue);
+				update(newNode, update);
+			}
+
+		}
+	}
+
+	private void update(SkipListNode<T> newNode, SkipListNode[] update){
+		for (int i = 0; i < newNode.height() - 1; i++) {
+			newNode.getForward()[i] = update[i];
+			update[i] = newNode;
 		}
 	}
 
