@@ -31,7 +31,7 @@ public class SkipListImpl<T> implements SkipList<T> {
 		}
 	}
 
-	
+
 	@Override
 	public void insert(int key, T newValue, int height) {
 		if (newValue != null && height > 0) {
