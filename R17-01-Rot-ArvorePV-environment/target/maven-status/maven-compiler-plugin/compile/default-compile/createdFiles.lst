@@ -4,9 +4,9 @@ adt/rbtree/RBNode.class
 adt/bst/BSTNode$Builder.class
 adt/rbtree/RBTreeImpl.class
 adt/bt/BTNode.class
+adt/bst/BSTImpl.class
 adt/bst/BSTNode.class
 adt/bst/BST.class
-adt/bst/BSTImpl.class
 adt/bt/BT.class
 adt/rbtree/RBTree.class
 adt/bt/Util.class
