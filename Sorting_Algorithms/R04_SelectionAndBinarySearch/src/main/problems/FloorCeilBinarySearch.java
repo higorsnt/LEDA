@@ -1,4 +1,4 @@
-package problems;
+package main.problems;
 
 /**
  * Calcula o floor e ceil de um numero em um array usando a estrategia de busca

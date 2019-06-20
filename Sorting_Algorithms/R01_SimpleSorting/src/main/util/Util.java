@@ -1,4 +1,4 @@
-package util;
+package main.util;
 
 /**
  * Class containing useful methods for arrays manipulation.

@@ -1,4 +1,4 @@
-package sorting;
+package main.sorting;
 
 public abstract class AbstractSorting<T extends Comparable<T>> implements
 		Sorting<T> {

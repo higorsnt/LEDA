@@ -1,6 +1,6 @@
-package sorting.divideAndConquer;
+package main.sorting.divideAndConquer;
 
-import sorting.AbstractSorting;
+import main.sorting.AbstractSorting;
 
 import java.util.Arrays;
 

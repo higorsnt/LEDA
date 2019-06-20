@@ -1,4 +1,4 @@
-package problems;
+package main;
 
 public class Main {
 

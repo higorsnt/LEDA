@@ -1,7 +1,8 @@
-package sorting.simpleSorting;
+package main.sorting.simpleSorting;
 
-import sorting.AbstractSorting;
-import static util.Util.swap;
+import main.sorting.AbstractSorting;
+
+import static main.util.Util.swap;
 
 /**
  * The bubble sort algorithm iterates over the array multiple times, pushing big

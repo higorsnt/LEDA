@@ -2,7 +2,7 @@
 
 Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
 
-> [Estrutura de Dados](#estrutura-de-dados)  
+> [Estrutura de Dados](#estruturas-de-dados)  
 > [Algoritmos de Ordenação](#algoritmos-de-ordenação)  
 > [Provas]
 
@@ -10,16 +10,17 @@ Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
 
 * **Estruturas de Dados Elementares**
 
-    * [Pilha](#R05_Pilha_FilaCircular#-pilha)
-    * [Fila](#R05_Pilha_FilaCircular#-fila)
+    * [Pilha](/DataStructures/R05_Pilha_FilaCircular#pilha)
+    * [Fila](DataStructures/R05_Pilha_FilaCircular#fila)
+    * [Fila Circular](DataStructures/R05_Pilha_FilaCircular#fila-circular)
 
 * **Listas Encadeadas**
 
-    * [Linked List (Iterativa)](#R06_LinkedList_Iterativa#-lista-encadeada-simples)
-    * [Doubly Linked List (Iterativa)](#R06_LinkedList_Iterativa#-lista-duplamente-encadeada)
+    * [Linked List (Iterativa)](DataStructures/R06_LinkedList_Iterativa#lista-encadeada-simples)
+    * [Doubly Linked List (Iterativa)](DataStructures/R06_LinkedList_Iterativa#lista-encadeada-simples)
     * [Pilha e Fila com Doubly Linked List]()
-    * [Linked List (Recursiva)](#R07_LinkedList_Recursiva#-lista-duplamente-encadeada)
-    * [Doubly Linked List (Recursiva)](#R07_LinkedList_Recursiva#-lista-duplamente-encadeada)
+    * [Linked List (Recursiva)](DataStructures/R07_LinkedList_Recursiva#lista-encadeada-simples)
+    * [Doubly Linked List (Recursiva)](DataStructures/R07_LinkedList_Recursiva#lista-duplamente-encadeada)
 
 * **Tabela Hash**
     

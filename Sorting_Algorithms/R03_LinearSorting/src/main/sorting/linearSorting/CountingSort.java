@@ -1,9 +1,8 @@
-package sorting.linearSorting;
+package main.sorting.linearSorting;
 
-import sorting.AbstractSorting;
+import main.sorting.AbstractSorting;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 /**
  * Classe que implementa a estratégia de Counting Sort vista em sala. Procure

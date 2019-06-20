@@ -1,4 +1,4 @@
-package orderStatistic;
+package main.orderStatistic;
 
 /**
  * Uma k-esima estatistica de ordem de um conjunto(array) de elementos eh 

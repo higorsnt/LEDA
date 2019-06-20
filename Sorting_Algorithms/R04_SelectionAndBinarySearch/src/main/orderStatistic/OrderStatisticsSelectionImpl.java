@@ -1,4 +1,4 @@
-package orderStatistic;
+package main.orderStatistic;
 
 public class OrderStatisticsSelectionImpl<T extends Comparable<T>> implements OrderStatistics<T> {
 

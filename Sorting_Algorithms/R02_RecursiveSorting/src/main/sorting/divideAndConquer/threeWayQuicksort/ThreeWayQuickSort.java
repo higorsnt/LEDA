@@ -1,6 +1,6 @@
-package sorting.divideAndConquer.threeWayQuicksort;
+package main.sorting.divideAndConquer.threeWayQuicksort;
 
-import sorting.AbstractSorting;
+import main.sorting.AbstractSorting;
 import static util.Util.swap;
 
 public class ThreeWayQuickSort<T extends Comparable<T>> extends

@@ -1,4 +1,4 @@
-package problems;
+package main.problems;
 
 /**
  * Dado um array ordenado de inteiros ordenado, floor(x) eh o elemento do array menor 

@@ -18,5 +18,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="R03_LinearSorting" />
+    <orderEntry type="module" module-name="R02_RecursiveSorting1" />
+    <orderEntry type="module" module-name="R01_SimpleSorting" />
   </component>
 </module>

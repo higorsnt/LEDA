@@ -1,7 +1,8 @@
-package sorting.variationsOfBubblesort;
+package main.sorting.variationsOfBubblesort;
 
-import sorting.AbstractSorting;
-import static util.Util.swap;
+import main.sorting.AbstractSorting;
+
+import static main.util.Util.swap;
 
 /**
  * This algorithm applies two bubblesorts simultaneously. In a same iteration, a

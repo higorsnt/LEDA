@@ -1,4 +1,4 @@
-package sorting;
+package main.sorting;
 
 /**
  * The interface of all sorting algorithms. It contains only the signature of

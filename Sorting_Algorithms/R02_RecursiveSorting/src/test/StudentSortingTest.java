@@ -1,16 +1,13 @@
-package sorting.test;
+package test;
 
 import java.util.Arrays;
 import java.util.Random;
 
+import main.sorting.AbstractSorting;
+import main.sorting.divideAndConquer.threeWayQuicksort.ThreeWayQuickSort;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import sorting.AbstractSorting;
-import sorting.divideAndConquer.MergeSort;
-import sorting.divideAndConquer.QuickSort;
-import sorting.divideAndConquer.threeWayQuicksort.ThreeWayQuickSort;
 
 public class StudentSortingTest {
 

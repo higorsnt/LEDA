@@ -1,7 +1,6 @@
-package sorting.simpleSorting;
+package main.sorting.simpleSorting;
 
-import sorting.AbstractSorting;
-import static util.Util.swap;
+import main.sorting.AbstractSorting;
 
 /**
  * As the insertion sort algorithm iterates over the array, it makes the
