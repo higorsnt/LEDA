@@ -1,4 +1,4 @@
-package adt.linkedList;
+package main.linkedList;
 
 /**
  * The interface of a generic linked list.

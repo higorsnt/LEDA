@@ -1,4 +1,4 @@
-package adt.queue;
+package main.queue;
 
 /**
  * The interface of a generic queue. The queue is able to store any kind of

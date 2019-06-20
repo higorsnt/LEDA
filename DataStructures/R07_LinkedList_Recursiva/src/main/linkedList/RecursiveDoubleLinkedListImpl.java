@@ -1,4 +1,4 @@
-package adt.linkedList;
+package main.linkedList;
 
 public class RecursiveDoubleLinkedListImpl<T> extends
 		RecursiveSingleLinkedListImpl<T> implements DoubleLinkedList<T> {

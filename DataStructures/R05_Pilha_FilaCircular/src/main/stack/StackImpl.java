@@ -1,4 +1,4 @@
-package adt.stack;
+package main.stack;
 
 public class StackImpl<T> implements Stack<T> {
 

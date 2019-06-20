@@ -1,4 +1,4 @@
-package adt.queue;
+package main.queue;
 
 public class QueueImpl<T> implements Queue<T> {
 

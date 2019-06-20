@@ -1,4 +1,4 @@
-package adt.stack;
+package main.stack;
 
 public class StackOverflowException extends Exception {
 

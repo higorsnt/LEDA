@@ -1,7 +1,7 @@
-package adt.linkedListPlus;
+package test.linkedListPlus;
 
-import adt.linkedList.DoubleLinkedList;
-import adt.linkedList.RecursiveDoubleLinkedListImpl;
+import main.linkedList.DoubleLinkedList;
+import main.linkedList.RecursiveDoubleLinkedListImpl;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

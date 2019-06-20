@@ -1,4 +1,4 @@
-package adt.queue;
+package main.queue;
 
 public class QueueUnderflowException extends Exception {
 

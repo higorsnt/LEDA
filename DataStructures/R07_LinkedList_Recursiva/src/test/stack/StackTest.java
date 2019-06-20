@@ -1,9 +1,13 @@
-package adt.stack;
+package test.stack;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Random;
 
+import main.stack.Stack;
+import main.stack.StackOverflowException;
+import main.stack.StackRecursiveDoubleLinkedListImpl;
+import main.stack.StackUnderflowException;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

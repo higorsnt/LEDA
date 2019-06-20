@@ -1,4 +1,4 @@
-package adt.linkedList;
+package main.linkedList;
 
 public class DoubleLinkedListNode<T> extends SingleLinkedListNode<T> {
 	protected DoubleLinkedListNode<T> previous;

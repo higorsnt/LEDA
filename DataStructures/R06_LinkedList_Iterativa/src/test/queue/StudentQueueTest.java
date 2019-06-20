@@ -1,13 +1,12 @@
-package adt.queue;
+package test.queue;
 
+import main.queue.Queue;
+import main.queue.QueueDoubleLinkedListImpl;
+import main.queue.QueueOverflowException;
+import main.queue.QueueUnderflowException;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import adt.queue.Queue;
-import adt.queue.QueueDoubleLinkedListImpl;
-import adt.queue.QueueOverflowException;
-import adt.queue.QueueUnderflowException;
 
 public class StudentQueueTest {
 
@@ -16,7 +15,7 @@ public class StudentQueueTest {
 	public Queue<Integer> queue3;
 
 	@Before
-	public void setUp() throws QueueOverflowException{
+	public void setUp() throws QueueOverflowException {
 		queue1 = new QueueDoubleLinkedListImpl<Integer>(6);
 		queue1.enqueue(1);
 		queue1.enqueue(2);

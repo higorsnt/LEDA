@@ -1,4 +1,4 @@
-package adt.stack;
+package main.stack;
 
 /**
  * The interface of a generic stack. The queue is able to store any kind of

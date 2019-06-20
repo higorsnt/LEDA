@@ -1,10 +1,12 @@
-package adt.stack;
+package test.stack;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
 
-import org.junit.Assert;
+import main.stack.Stack;
+import main.stack.StackImpl;
+import main.stack.StackOverflowException;
+import main.stack.StackUnderflowException;
 import org.junit.Before;
 import org.junit.Test;
 

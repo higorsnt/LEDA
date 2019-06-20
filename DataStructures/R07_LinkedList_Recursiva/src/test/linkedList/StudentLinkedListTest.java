@@ -1,5 +1,7 @@
-package adt.linkedList;
+package test.linkedList;
 
+import main.linkedList.LinkedList;
+import main.linkedList.RecursiveSingleLinkedListImpl;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

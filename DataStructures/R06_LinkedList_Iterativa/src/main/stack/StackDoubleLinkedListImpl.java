@@ -1,7 +1,7 @@
-package adt.stack;
+package main.stack;
 
-import adt.linkedList.DoubleLinkedList;
-import adt.linkedList.DoubleLinkedListImpl;
+import main.linkedList.DoubleLinkedList;
+import main.linkedList.DoubleLinkedListImpl;
 
 public class StackDoubleLinkedListImpl<T> implements Stack<T> {
 

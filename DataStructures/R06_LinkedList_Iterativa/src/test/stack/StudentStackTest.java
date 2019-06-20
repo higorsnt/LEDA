@@ -1,7 +1,11 @@
-package adt.stack;
+package test.stack;
 
 import static org.junit.Assert.*;
 
+import main.stack.Stack;
+import main.stack.StackDoubleLinkedListImpl;
+import main.stack.StackOverflowException;
+import main.stack.StackUnderflowException;
 import org.junit.Assert;
 import org.junit.Test;
 

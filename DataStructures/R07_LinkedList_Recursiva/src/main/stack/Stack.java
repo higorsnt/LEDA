@@ -1,4 +1,4 @@
-package adt.stack;
+package main.stack;
 
 /**
  * The interface of a generic stack. The stack is able to store any kind of

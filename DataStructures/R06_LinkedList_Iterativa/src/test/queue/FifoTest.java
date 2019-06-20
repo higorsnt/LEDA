@@ -1,17 +1,16 @@
-package adt.queue;
+package test.queue;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Random;
 
+import main.queue.Queue;
+import main.queue.QueueDoubleLinkedListImpl;
+import main.queue.QueueOverflowException;
+import main.queue.QueueUnderflowException;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import adt.queue.Queue;
-import adt.queue.QueueDoubleLinkedListImpl;
-import adt.queue.QueueOverflowException;
-import adt.queue.QueueUnderflowException;
 
 public class FifoTest {
 

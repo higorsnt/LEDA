@@ -1,4 +1,4 @@
-package adt.linkedList;
+package main.linkedList;
 
 public class DoubleLinkedListImpl<T> extends SingleLinkedListImpl<T> implements
 		DoubleLinkedList<T> {

@@ -1,7 +1,7 @@
-package adt.queue;
+package main.queue;
 
-import adt.linkedList.DoubleLinkedList;
-import adt.linkedList.DoubleLinkedListImpl;
+import main.linkedList.DoubleLinkedList;
+import main.linkedList.DoubleLinkedListImpl;
 
 public class QueueDoubleLinkedListImpl<T> implements Queue<T> {
 

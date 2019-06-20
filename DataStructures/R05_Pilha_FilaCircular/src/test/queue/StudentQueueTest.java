@@ -1,10 +1,14 @@
-package adt.queue;
+package test.queue;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-import org.junit.Assert;
+import main.queue.CircularQueue;
+import main.queue.Queue;
+import main.queue.QueueOverflowException;
+import main.queue.QueueUnderflowException;
+
 import org.junit.Before;
 import org.junit.Test;
 

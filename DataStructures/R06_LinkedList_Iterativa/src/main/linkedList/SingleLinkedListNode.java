@@ -1,4 +1,4 @@
-package adt.linkedList;
+package main.linkedList;
 
 public class SingleLinkedListNode<T> {
 	protected T data;
