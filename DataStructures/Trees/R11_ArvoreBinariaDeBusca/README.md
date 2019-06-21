@@ -19,6 +19,7 @@ _OBS.: Existe o caso onde a inserção é feita na raiz (árvore vazia)_
 
 <p align="center">
     <img src="https://www.mathwarehouse.com/programming/images/binary-search-tree/binary-search-tree-insertion-animation.gif"/>
+    </br>
     Fonte: <a href="https://www.techiedelight.com/insertion-in-bst/">Math Warehouse</a>
 </p>
 
@@ -39,7 +40,7 @@ _OBS.: Existe o caso onde a inserção é feita na raiz (árvore vazia)_
 Informa a altura da árvore
 
 <p align="center">
-    <img src="https://www.includehelp.com/data-structure-tutorial/images/Image5.gif"/>
+    <img src="https://www.includehelp.com/data-structure-tutorial/images/Image5.gif"/></br>
     Fonte: <a href="https://www.includehelp.com/data-structure-tutorial/find-height-maximum-depth-of-a-binary-search-tree.aspx">Include Help</a>
 </p>
 
@@ -56,28 +57,28 @@ Informa a altura da árvore
 * **Caso 1: Nó que irá ser removido é um nó folha**
 
 <p align="center">
-    <img src="img/caso1.gif"/>
+    <img src="img/caso1.gif"/></br>
     Simulação feita no Visualgo
 </p>
 
 * **Caso 2: Nó que irá ser removido tem 1 filho**
 
 <p align="center">
-    <img src="img/caso2.gif"/>
+    <img src="img/caso2.gif"/></br>
     Simulação feita no Visualgo
 </p>
 
 * **Caso 3: Nó que irá ser removido tem 2 filhos**
 
 <p align="center">
-    <img src="img/caso3.gif"/>
+    <img src="img/caso3.gif"/></br>
     Simulação feita no Visualgo
 </p>
 
 **Pseudocódigo**
 
 <p align="center">
-    <img src="img/remove.png"/>
+    <img src="img/remove.png"/></br>
     Fonte: <a href="https://en.wikipedia.org/wiki/Binary_search_tree#Deletion">Wikipedia</a>
 </p>
 
@@ -90,12 +91,12 @@ Informa a altura da árvore
 O máximo da árvore é o elemento mais à direita e o mínimo é o mais à esquerda.
 
 <p align="center">
-    <img src="img/minimum.gif"/>
+    <img src="img/minimum.gif"/></br>
     Fonte: <a href="https://blog.pantuza.com/artigos/tipos-abstratos-de-dados-arvore-de-busca-binaria-binary-search-tree"> Pantuza </a>
 </p>
 
 <p align="center">
-    <img src="img/maximum.gif"/>
+    <img src="img/maximum.gif"/></br>
     Fonte: <a href="https://blog.pantuza.com/artigos/tipos-abstratos-de-dados-arvore-de-busca-binaria-binary-search-tree"> Pantuza </a>
 </p>
 
@@ -135,7 +136,7 @@ Para buscar um valor na árvore deve-se seguir a receita:
 - Se o valor é maior que a raiz então mande a sub-árvore da direita buscar o valor.
 
 <p align="center">
-    <img src="https://www.mathwarehouse.com/programming/images/binary-search-tree/binary-search-tree-sorted-array-animation.gif"/>
+    <img src="https://www.mathwarehouse.com/programming/images/binary-search-tree/binary-search-tree-sorted-array-animation.gif"/></br>
     Fonte: <a href="https://www.techiedelight.com/insertion-in-bst/">Math Warehouse</a>
 </p>
 
