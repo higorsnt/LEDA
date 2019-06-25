@@ -1,4 +1,4 @@
-package adt.heap;
+package main.heap;
 
 public interface Heap<T extends Comparable<T>> {
 

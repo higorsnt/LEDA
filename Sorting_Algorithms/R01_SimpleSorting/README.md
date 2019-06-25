@@ -8,7 +8,7 @@ Dado um vetor de tamanho _n_, para realizar a ordenação nesse método é neces
 
 
 <p align="center">
-    <img src="https://codepumpkin.com/wp-content/uploads/2017/10/bubble.gif"/>
+    <img src="https://codepumpkin.com/wp-content/uploads/2017/10/bubble.gif"/></br>
     Fonte: <a href="https://codepumpkin.com/bubble-sort/">CodePumpkin</a>
 </p>
 
@@ -71,7 +71,7 @@ Inicialmente procura-se o menor elemento por meio de uma busca linear e o troca 
 
 
 <p align="center">
-    <img src="https://codepumpkin.com/wp-content/uploads/2017/10/selectionSort.gif"/>
+    <img src="https://codepumpkin.com/wp-content/uploads/2017/10/selectionSort.gif"/></br>
     Fonte: <a href="https://codepumpkin.com/selection-sort-algorithms/">CodePumpkin</a>
 </p>
 
@@ -126,7 +126,7 @@ def SelectionSortRecursivo(lista, index):
 Iniciando a partir do segundo elemento (número eleito na primeira execução), o insertion faz se considerar que todos os elementos à esquerda deste está ordenado. E por meio de um laço serão feitas comparações do segundo elemento ao último. Enquanto existirem elementos à esquerda do número eleito para comparações e for menor que o eleito o laço será executado.
 
 <p align="center">
-    <img src="https://cdn-images-1.medium.com/max/1600/1*krA0OFxEDgi8hVHJffCi4w.gif"/>
+    <img src="https://cdn-images-1.medium.com/max/1600/1*krA0OFxEDgi8hVHJffCi4w.gif"/></br>
         Fonte: <a href="https://medium.com/@george.seif94/this-is-the-fastest-sorting-algorithm-ever-b5cee86b559c">Medium</a>
 </p>
 
@@ -164,7 +164,7 @@ def InsertioSortRecursivo(lista, i):
 É uma variação do [Bubble Sort](/R01_SimpleSorting#-bubble-sort) que consiste em ordenar em duas direções ao mesmo tempo. Dessa forma me garante que o menor e o maior elemento do array desordenado estará em sua posição correta.
 
 <p align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Sorting_shaker_sort_anim.gif"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Sorting_shaker_sort_anim.gif"/></br>
     Fonte: <a href="https://en.wikipedia.org/wiki/Cocktail_shaker_sort#/media/File:Sorting_shaker_sort_anim.gif">Medium</a>
 </p>
 

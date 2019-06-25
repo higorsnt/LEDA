@@ -1,4 +1,4 @@
-# Algoritmos de Ordenação
+# 📂  Algoritmos de Ordenação
 
 |   Algoritmo    | Pior Caso | Caso Médio |
 |  :---------:   | :-------: | :--------: |
@@ -15,6 +15,6 @@
 
 
 <p align="center">
-    <img src=https://cdn-images-1.medium.com/max/800/1*bPpvELo9_QqQsDz7CSbwXQ.gif>
+    <img src=https://cdn-images-1.medium.com/max/800/1*bPpvELo9_QqQsDz7CSbwXQ.gif></br>
     Fonte: <a href=https://medium.com/@kamyarg/comparison-sorting-algorithms-and-mystery-of-nlogn-complexity-d7e80c34876>Medium</a>
 </p>

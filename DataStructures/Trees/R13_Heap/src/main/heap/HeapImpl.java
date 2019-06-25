@@ -1,11 +1,11 @@
-package adt.heap;
+package main.heap;
+
+import main.util.Util;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-
-import util.Util;
 
 /**
  * O comportamento de qualquer heap é definido pelo heapify. Neste caso o
