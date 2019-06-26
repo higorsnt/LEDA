@@ -1,4 +1,4 @@
-# Árvore Binária de Busca
+# 🌳 Árvore Binária de Busca
 
 Diferente do roteiro anterior, a árvore poderá ser organizada de diferentes maneira e 
 tudo irá depender da forma que o comparador for passador.

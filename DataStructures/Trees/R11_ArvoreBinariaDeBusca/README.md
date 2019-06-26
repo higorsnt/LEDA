@@ -1,4 +1,4 @@
-# Árvore Binária de Busca
+# 🌳 Árvore Binária de Busca
 
 É um tipo de árvore binária , onde cada nó possui um valor associado e esse valor é quem define em que posição da árvore ele será inserido. Além disso, não possui elementos repetidos.
 
