@@ -50,3 +50,15 @@ Para realizar a remoção é necessário procurar pelo nó e guardar os nós que
     <img src="https://d2vlcm61l7u1fs.cloudfront.net/media%2F19a%2F19a9ff4e-3988-4935-8ea1-655cb5d165b3%2FphpHmPfvA.png"/></br>
     Fonte: <a href="https://www.chegg.com/homework-help/questions-and-answers/draw-example-skip-list-results-performing-following-series-operations-skip-list-shown-figu-q19861350">Link</a>
 </p>
+
+### Height
+
+É a maior altura possível dos elementos, excluindo-se o **HEADER** e o **NIL**.
+
+### toArray
+
+Lembrando que o último nível de uma skip list possui referências para todos os elementos da lista, então a ideia básica é percorrer o nível mais baixo da lista e ir inserindo no array e por fim é só retornar o produto final dessa iteração.
+
+### Size
+
+Para a implementação desse método deve-se utilizar a mesma ideia do toArray (percorrendo o último nível da lista).

@@ -64,7 +64,7 @@ Assim como nas rotações simples, as duplas possuem dois tipos:
 
 ## Métodos
 
-Os métodos de uma AVL são praticamente os mesmos de uma BST, porém devem se sobrescrever o **insert** e o **remove**, isso para que se mantenha o balanceamento. Portanto, para se manter o balanceamento deve-se ter alguns métodos adicionais:
+Os métodos de uma AVL são praticamente os mesmos de uma BST, porém devem-se sobrescrever o **insert** e o **remove**, isso para que se mantenha o balanceamento. Portanto, para se manter o balanceamento deve-se ter alguns métodos adicionais:
 
 1. calculateBalance
 
