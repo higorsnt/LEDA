@@ -4,7 +4,18 @@ Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
 
 > [Estrutura de Dados](#estruturas-de-dados)  
 > [Algoritmos de Ordenação](#algoritmos-de-ordenação)  
-> [Provas]
+> [Provas](#provas)
+  
+
+
+## Provas
+
+* **1º Estágio:** [Occurrences Counter](Provas/PP1_OccurrencesCounter)
+
+* **2º Estágio:** [Single Linked List Reverse Append](Provas/PP2_SingleLinkedListReverseAppend)
+
+* **3º Estágio:** [Family BST](Provas/PP3_FamilyBST)
+
 
 ## Estruturas de Dados
 
@@ -21,10 +32,23 @@ Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
     * [Pilha e Fila com Doubly Linked List]()
     * [Linked List (Recursiva)](DataStructures/R07_LinkedList_Recursiva#lista-encadeada-simples)
     * [Doubly Linked List (Recursiva)](DataStructures/R07_LinkedList_Recursiva#lista-duplamente-encadeada)
+    * [Set Linked List](DataStructures/R10_SetLinkedList#set-linked-list)
 
 * **Tabela Hash**
     
-    * Endereçamento Fechado
+    * [Endereçamento Fechado](DataStructures/R08_TabelaHash_EndFechado#tabelas-hash)
+    * [Endereçamento Aberto](DataStructures/R09_TabelaHash_EndAberto#tabelas-hash)
+
+* **Árvores**
+
+    * [Árvore Binária de Busca](DataStructures/Trees/R11_ArvoreBinariaDeBusca#-árvore-binária-de-busca)
+    * [Árvore Binária de Busca com Comparador](DataStructures/Trees/R12_BSTComparatorSorting#-árvore-binária-de-busca)
+    * [Heap](DataStructures/Trees/R13_Heap#heap)
+    * [Árvore AVL](DataStructures/Trees/R14_ArvoreAVL#-árvore-avl)
+    * [Árvore AVL (Aplicação)](DataStructures/Trees/R15_ArvoreAVLCountFill#árvore-avl-aplicação)
+    * [Skip List](DataStructures/Trees/R16_SkipList#skip-lists)
+    * [Árvore Preta e Vermelha](DataStructures/Trees/R17_ArvorePV#árvores-preto-e-vermelho)
+    * [Árvore B](DataStructures/Trees/R18_ArvoreB#árvore-b)
 
 ## Algoritmos de Ordenação
 
