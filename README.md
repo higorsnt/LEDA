@@ -16,6 +16,8 @@ Roteiros realizados na disciplina de Laboratório de Estrutura de Dados e Algori
 
 * **3º Estágio:** [Family BST](Provas/PP3_FamilyBST)
 
+* [Provas Limpas](Provas/Provas%20Limpas "Baixe as provas aqui!")
+
 
 ## Estruturas de Dados
 
@@ -44,7 +46,7 @@ Roteiros realizados na disciplina de Laboratório de Estrutura de Dados e Algori
     * [Árvore Binária de Busca](DataStructures/Trees/R11_ArvoreBinariaDeBusca#-árvore-binária-de-busca)
     * [Árvore Binária de Busca com Comparador](DataStructures/Trees/R12_BSTComparatorSorting#-árvore-binária-de-busca)
     * [Heap](DataStructures/Trees/R13_Heap#heap)
-    * [Árvore AVL](/Trees/R14_ArvoreAVL#-árvore-avl)
+    * [Árvore AVL](DataStructures/Trees/R14_ArvoreAVL#-árvore-avl)
     * [Árvore AVL (Aplicação)](DataStructures/Trees/R15_ArvoreAVLCountFill#árvore-avl-aplicação)
     * [Skip List](DataStructures/Trees/R16_SkipList#skip-lists)
     * [Árvore Preta e Vermelha](DataStructures/Trees/R17_ArvorePV#árvores-preto-e-vermelho)
