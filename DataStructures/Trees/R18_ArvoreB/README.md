@@ -5,7 +5,7 @@
 Diferentemente das árvores anteriores esta permite que um nó tenha mais que 2 filhos e, portanto, reduza o número de acessos a disco.
 
 <p align="center">
-    <img src="http://www.lcad.icmc.usp.br/~nonato/ED/B_arvore/arvoreb.gif"/></br>
+    <img src="http://www.lcad.icmc.usp.br/~nonato/ED/B_arvore/arvoreb.gif"/><br/>
     Fonte: <a href="http://www.lcad.icmc.usp.br/~nonato/ED/B_arvore/btree.htm">Link da Referência</a>
 </p>
 
@@ -25,8 +25,7 @@ Considerando uma árvore B de ordem **m**:
 ### Busca
 
 Apesar de ser semelhante com a mesma operação realizada em uma BST é necessário lembrar que cada nó possui diversos elementos, logo é necessário fazer uma busca linear em cada nó.  
-Em resumo, o processo consiste em realizar uma comparação do valor **x** buscado com as chaves presente no nó. Se não encontrar então a busca desce para a sub-árvore cujos separadores são x<sub>1</sub> e x<sub>2</sub>, tal que:
-    > **x<sub>1</sub> < x < x<sub>2</sub>**
+Em resumo, o processo consiste em realizar uma comparação do valor **x** buscado com as chaves presente no nó. Se não encontrar então a busca desce para a sub-árvore cujos separadores são x<sub>1</sub> e x<sub>2</sub>, tal que: **x<sub>1</sub> < x < x<sub>2</sub>**
 
 **Pseudócodigo**
 
@@ -37,7 +36,7 @@ Em resumo, o processo consiste em realizar uma comparação do valor **x** busca
 **Simulação de Execução**
 
 <p align="center">
-    <img src="http://condor.depaul.edu/ichu/csc383/notes/notes7/B-Trees_files/tree-search.gif"/></br>
+    <img src="http://condor.depaul.edu/ichu/csc383/notes/notes7/B-Trees_files/tree-search.gif"/><br/>
     Fonte: <a href="http://condor.depaul.edu/ichu/csc383/notes/notes7/btree.html">Link da Referência</a>
 </p>
 
@@ -51,7 +50,7 @@ A operação de inserção, inicialmente com a árvore vazia, deve garantir que 
 Considerando uma árvore B que possui no máximo 3 filhos cada nó, vejamos uma simulação da inserção de 1 a 7:
 
 <p align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/B_tree_insertion_example.png"/></br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/B_tree_insertion_example.png"/><br/>
     Fonte: <a href="https://pt.wikipedia.org/wiki/%C3%81rvore_B">wikipédia</a>
 </p>
 
@@ -67,13 +66,13 @@ Considerando uma árvore B que possui no máximo 3 filhos cada nó, vejamos uma 
 > É necessário notar que um split na raiz gera uma nova raiz!
 
 <p align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Split_gif.gif"/></br>
-    Fonte: <a href="https://pt.wikipedia.org/wiki/%C3%81rvore_B">wikipédia</a>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Split_gif.gif"/><br/>
+    Fonte: <a href="https://pt.wikipedia.org/wiki/%C3%81rvore_B">Wikipédia</a>
 </p>
 
 **Simulação de Execução**
 
 <p align="center">
-    <img src="http://condor.depaul.edu/ichu/csc383/notes/notes7/B-Trees_files/tree-insert2.gif"/></br>
+    <img src="http://condor.depaul.edu/ichu/csc383/notes/notes7/B-Trees_files/tree-insert2.gif"/><br/>
     Fonte: <a href="http://condor.depaul.edu/ichu/csc383/notes/notes7/btree.html">Link da Referência</a>
 </p>

@@ -13,7 +13,7 @@ na criação da BST.
 2. **reverseOrder**
 
 Método que percorre a árvore de forma contrária ao percurso em ordem. 
-Dessa forma a árvore é percorrida pela DIREITA, RAIZ, ESQUERDA.
+Dessa forma a árvore é percorrida pela **DIREITA, RAIZ, ESQUERDA**.
 
 3. **insert**
 

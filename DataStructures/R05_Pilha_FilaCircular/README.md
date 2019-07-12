@@ -1,13 +1,13 @@
 # ROTEIRO 05
 
-Nesse roteiro o objetivo é implementar as estruturas básicas de dados.
+O objetivo deste roteiro é implementar as estruturas básicas de dados.
 
 ## Pilha
 
 A pilha segue uma política de inserção de elementos conhecida como **LIFO** (last in, first out). Dessa forma a inserção e remoção se faz pela mesma extremidade, conhecida como topo.
 
 <p align="center">
-    <img src="https://cdn-images-1.medium.com/max/800/1*kkK3EZNOzBsuwkDNvSVR9g.gif"/></br>
+    <img src="https://cdn-images-1.medium.com/max/800/1*kkK3EZNOzBsuwkDNvSVR9g.gif"/><br/>
     Fonte: <a href="https://medium.com/dev-blogs/ds-with-js-stack-queue-d91fc8cea7a3">Medium</a>
 </p>
 
@@ -29,7 +29,7 @@ Em uma fila cada elemento é inserido na cauda e removido pela cabeça, ou seja,
 Uma particularidade da fila, é que em algumas implementações se faz necessário trazer todos os elementos pra frente após uma remoção.
 
 <p align="center">
-    <img src="http://daltonschool.github.io/CS3A/assets/queue-animation.gif"/></br>
+    <img src="http://daltonschool.github.io/CS3A/assets/queue-animation.gif"/><br/>
     Fonte: <a href="http://daltonschool.github.io/CS3A/collections/">CS3A</a>
 </p>
 
@@ -51,7 +51,7 @@ A diferença entre a implementação tradicional e a fila circular é a necessid
   
 
 <p align="center">
-    <img src="http://daltonschool.github.io/CS3A/assets/queuearray-animation.gif"/>
+    <img src="http://daltonschool.github.io/CS3A/assets/queuearray-animation.gif"/><br/>
     Fonte: <a href="http://daltonschool.github.io/CS3A/collections/">CS3A</a>
 </p>
 

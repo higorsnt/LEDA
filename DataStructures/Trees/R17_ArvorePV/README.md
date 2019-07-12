@@ -15,7 +15,7 @@ Ela permite rebalanceamento local, ou seja, apenas na parte afetada pela inserç
 5. Todo caminho simples de um nó a uma folha descendente contém o mesmo número de nós pretos, que não sejam NIL. Isso é o chamado **black-height**.
 
 <p align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Red-black_tree_example.svg"/></br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Red-black_tree_example.svg"/><br/>
     Fonte: <a href="https://pt.wikibooks.org/wiki/Algoritmos_e_Estruturas_de_Dados/%C3%81rvores_Rubro-Negras">WikiBooks</a>
 </p>
 
@@ -59,23 +59,23 @@ O elemento sempre é inserido como um nó vermelho e a inserção segue o mesmo 
 4. Nesse caso é necessário verificar se o nó é um filho à direita e o seu pai um filho à esquerda, então é necessário realizar uma rotação para a esquerda no pai. Caso contrário, ou seja, o nó é filho da direita e o pai filho da esquerda, é necessário realizar uma rotação para a direita no pai. Por fim, é chamado o caso 5 para o novo filho, independente do caso encontrado.
 
     <p align="center">
-        <img src="img/case4-left.png"/></br>
+        <img src="img/case4-left.png"/><br/>
         Caso onde ocorre uma rotação para a esquerda no pai.
     </p>
 
     <p align="center">
-        <img src="img/case4-right.png"/></br>
+        <img src="img/case4-right.png"/><br/>
         Caso onde ocorre uma rotação para a direita no pai.
     </p>
 
 5. Inicialmente é necessário mudar a cor do pai para preto e do avó para vermelho do nó passado, que é o novo filho após a rotação realizada no caso anterior. Em seguida, se o nó passado é um filho à esquerda então se faz uma rotação para a direita sobre o avô, caso contrário uma rotação para a esquerda, também sobre o avô.
 
     <p align="center">
-        <img src="img/case5-right.png"/></br>
+        <img src="img/case5-right.png"/><br/>
         Caso onde ocorre uma rotação para a esquerda no avô.
     </p>
 
     <p align="center">
-        <img src="img/case5-left.png"/></br>
+        <img src="img/case5-left.png"/><br/>
         Caso onde ocorre uma rotação para a direita no avô.
     </p>

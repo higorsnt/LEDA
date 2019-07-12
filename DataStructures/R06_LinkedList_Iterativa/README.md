@@ -26,11 +26,11 @@ Cada lista tem um nó de referência para o início da lista, a cabeça da lista
 
 ## Lista Duplamente Encadeada
 
-Cada lista possui dois nós de referência: um para indicar o início da lista, a cabeça da lista, e outro pra indicar o final da lista, a cauda da lista. Logo, cada nó possui três dados: o valor inserido na posição, uma referência para o próximo elemento e ainda uma referência para o elemento anterior a ele.
-Assim como a Lista Encadeada Simples a cabeça da lista inicia como um **nó sentinela** e sempre que for inserido um elemento a referência para o próximo elemento passar a ser um novo **nó sentinela**. Porém, além disso é necessário indicar o anterior e no caso do head o anterior é um **nó sentinela**.
+Cada lista possui dois nós de referência: um para indicar o início da lista, a cabeça da lista, e outro pra indicar o final da lista, a cauda da lista. Logo, cada nó possui três dados: o valor inserido na posição, uma referência para o próximo elemento e ainda uma referência para o elemento anterior a ele.  
+Assim como a Lista Encadeada Simples, a cabeça da lista inicia como um **nó sentinela** e sempre que for inserido um elemento a referência para o próximo elemento passar a ser um novo **nó sentinela**. Porém, além disso é necessário indicar quem é o nó anterior e no caso do head o anterior é um **nó sentinela**.
 
 <p align="center">
-    <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2014/03/DLL1.png"/><br>
+    <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/gq/2014/03/DLL1.png"/><br/>
     Fonte: <a href="https://www.geeksforgeeks.org/doubly-linked-list/">GeeksforGeeks</a>
 </p>
 

@@ -1,6 +1,6 @@
 # ESTRUTURA DE DADOS E ALGORITMOS :game_die:
 
-Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
+Roteiros realizados na disciplina de Laboratório de Estrutura de Dados e Algoritmos no período 2019.1.
 
 > [Estrutura de Dados](#estruturas-de-dados)  
 > [Algoritmos de Ordenação](#algoritmos-de-ordenação)  
@@ -28,8 +28,8 @@ Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
 * **Listas Encadeadas**
 
     * [Linked List (Iterativa)](DataStructures/R06_LinkedList_Iterativa#lista-encadeada-simples)
-    * [Doubly Linked List (Iterativa)](DataStructures/R06_LinkedList_Iterativa#lista-encadeada-simples)
-    * [Pilha e Fila com Doubly Linked List]()
+    * [Doubly Linked List (Iterativa)](DataStructures/R06_LinkedList_Iterativa#lista-duplamente-encadeada)
+    * [Pilha e Fila com Doubly Linked List](DataStructures/R06_LinkedList_Iterativa)
     * [Linked List (Recursiva)](DataStructures/R07_LinkedList_Recursiva#lista-encadeada-simples)
     * [Doubly Linked List (Recursiva)](DataStructures/R07_LinkedList_Recursiva#lista-duplamente-encadeada)
     * [Set Linked List](DataStructures/R10_SetLinkedList#set-linked-list)
@@ -44,7 +44,7 @@ Roteiros realizado na disciplina de Laboratório de Estrutura de Dados
     * [Árvore Binária de Busca](DataStructures/Trees/R11_ArvoreBinariaDeBusca#-árvore-binária-de-busca)
     * [Árvore Binária de Busca com Comparador](DataStructures/Trees/R12_BSTComparatorSorting#-árvore-binária-de-busca)
     * [Heap](DataStructures/Trees/R13_Heap#heap)
-    * [Árvore AVL](DataStructures/Trees/R14_ArvoreAVL#-árvore-avl)
+    * [Árvore AVL](/Trees/R14_ArvoreAVL#-árvore-avl)
     * [Árvore AVL (Aplicação)](DataStructures/Trees/R15_ArvoreAVLCountFill#árvore-avl-aplicação)
     * [Skip List](DataStructures/Trees/R16_SkipList#skip-lists)
     * [Árvore Preta e Vermelha](DataStructures/Trees/R17_ArvorePV#árvores-preto-e-vermelho)

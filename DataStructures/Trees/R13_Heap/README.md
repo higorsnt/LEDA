@@ -2,10 +2,10 @@
 
 É uma árvore binária onde satisfaz duas propriedades:
 1. **Shape Property:** Estar completa até pelo menos seu penúltimo nível. Além disso, se o último nível não estiver completo, todos os nós do último nível deverão estar agrupados à esquerda.
-2. **Tipo:** Uma heap pode ser do tipo _Max Heap_, onde todos os valores dos nós são menores do que o valor do nó pai (raiz possui maior valor), ou do tipo _Min Heap_, onde todos os valores dos nós são maiores do que o valor do nó pai (raiz possui menor valor).
+2. **Tipo:** Uma heap pode ser do tipo _Max Heap_, onde todos os valores dos nós filhos são menores do que o valor do nó pai (raiz possui maior valor), ou do tipo _Min Heap_, onde todos os valores dos nós filhos são maiores do que o valor do nó pai (raiz possui menor valor).
 
 <p align="center">
-    <img src="https://i2.wp.com/www.techiedelight.com/wp-content/uploads/2016/11/Min-Max-Heap.png?resize=738%2C430&ssl=1"/></br>
+    <img src="https://i2.wp.com/www.techiedelight.com/wp-content/uploads/2016/11/Min-Max-Heap.png?resize=738%2C430&ssl=1"/><br/>
     Fonte: <a href="https://www.techiedelight.com/introduction-priority-queues-using-binary-heaps/"> Techie Delight </a>
 </p>
 
@@ -28,7 +28,7 @@ Esse método é o que garante que as propriedades de uma heap se mantenham.
 **Pseudocódigo**
 
 <p align="center">
-    <img src="img/heapify.png"/></br>
+    <img src="img/heapify.png"/><br/>
     Fonte: Wikipédia
 </p>
 
@@ -37,7 +37,8 @@ Esse método é o que garante que as propriedades de uma heap se mantenham.
 Para inserir um elemento na heap devemos colocá-lo na primeira posição vaga do array, ou seja, no final do array e em seguida levar o elemento para a posição correta de acordo com a prioridade da heap.
 
 <p align="center">
-    <img src="https://i.gifer.com/2cH8.gif"/>
+    <img src="img/insert.gif"/><br/>
+    Fonte: <a href="https://i.gifer.com/2cH8.gif"> Gifer</a>
 </p>
 
 **Pseudocódigo**
@@ -55,14 +56,14 @@ Permite construir uma heap a partir de um array passado como parâmetro.
     <img src="img/buildheap.png"/>
 </p>
 
-_OBS.: Vai até `length /2` pois após esse número a grande maioria dos elementos serão nó folha!_
+_OBS.: Vai até `length / 2` pois após esse número a grande maioria dos elementos serão nós folhas!_
 
 ### Extract Root Element
 
-As remoções na heap ocorrem pela raiz. Logo, ao se remover a raiz se traz o último elemento para a posição e em seguida chama o Heapify para consertar a estrutura.
+As remoções na heap ocorrem pela raiz. Logo, ao se remover a raiz traz o elemento que está na última posição do array para a raiz e em seguida chama o Heapify para consertar a estrutura.
 
 <p align="center">
-    <img src="https://i2.wp.com/algorithms.tutorialhorizon.com/files/2015/02/Delete-OR-Extract-Min-from-Heap.gif?ssl=1"/></br>
+    <img src="https://i2.wp.com/algorithms.tutorialhorizon.com/files/2015/02/Delete-OR-Extract-Min-from-Heap.gif?ssl=1"/><br/>
     Fonte: <a href="https://algorithms.tutorialhorizon.com/binary-min-max-heap/delete-or-extract-min-from-heap/">Algorithms @tutorialhorizon</a>
 </p>
 
@@ -78,7 +79,7 @@ As remoções na heap ocorrem pela raiz. Logo, ao se remover a raiz se traz o ú
 É uma forma de ordenar dados utilizando uma heap. Portanto, o método recebe um array e insere em uma heap, em seguida é só inserir os dados em um novo array, fazendo extrações pela raiz.
 
 <p align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Heap_sort_example.gif"/></br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Heap_sort_example.gif"/><br/>
     Fonte: <a href="https://commons.wikimedia.org/wiki/File:Heap_sort_example.gif">Wikipédia</a>
 </p>
 

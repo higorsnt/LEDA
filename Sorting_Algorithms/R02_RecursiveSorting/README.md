@@ -10,7 +10,7 @@ Por ser um algoritmo que utiliza a técnica _dividir para conquistar_ deve-se se
 3. **Combinar**: intercalar as duas subsequências ordenadas para produzir a solução.
 
 <p align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif"/></br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif"/><br/>
     Fonte: <a href="https://pt.wikipedia.org/wiki/Merge_sort">Wikipedia</a>
 </p>
 
@@ -63,7 +63,7 @@ De forma semelhante ao merge sort, o quick sort particiona um vetor em dois por 
 3. **Combinar**: durante o processo recursivo os elementos vão sendo ordenados no próprio vetor.
 
 <p align="center">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Quicksort-example.gif"/></br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Quicksort-example.gif"/><br/>
     Fonte: <a href="https://en.wiktionary.org/wiki/quicksort">Wiktionary</a>
 </p>
 
@@ -132,7 +132,7 @@ def partition(lista, inicio, fim):
 Ele executa 3 partições no array sendo uma com elementos menores que o pivô, outra com elementos iguais ao pivô e uma terceira contendo os elementos maiores que o pivô.
 
 <p align="center">
-    <img src="https://algorithmsandme.com/wp-content/uploads/2018/03/3-way-quicksort.png"/></br>
+    <img src="https://algorithmsandme.com/wp-content/uploads/2018/03/3-way-quicksort.png"/><br/>
     Fonte: <a href="https://algorithmsandme.com/3-way-quicksort/">Algorithms & Me</a>
 </p>
 
